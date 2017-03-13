@@ -1,0 +1,1433 @@
+<!doctype html>
+
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"  lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"  lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"  lang="en" dir="ltr"> <!--<![endif]-->
+<head>
+<title>ESMA LIBRARY</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal Mothership" />
+<link rel="shortcut icon" href="https://www.esma.europa.eu/profiles/esma_website/themes/custom/esma/favicon.ico" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.esma.europa.eu/databases-library/esma-library" />
+<link rel="shortlink" href="https://www.esma.europa.eu/databases-library/esma-library" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@ESMAComms" />
+<meta name="twitter:site:id" content="573442111" />
+<meta name="twitter:creator" content="@ESMAComms" />
+<meta name="twitter:creator:id" content="573442111" />
+<meta name="twitter:url" content="https://www.esma.europa.eu/databases-library/esma-library" />
+<meta name="twitter:title" content="ESMA LIBRARY" />
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.esma.europa.eu/profiles/esma_website/themes/custom/esma/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="114x114" href="https://www.esma.europa.eu/profiles/esma_website/themes/custom/esma/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.esma.europa.eu/profiles/esma_website/themes/custom/esma/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" href="https://www.esma.europa.eu/profiles/esma_website/themes/custom/esma/apple-touch-icon.png">
+<link rel="apple-touch-startup-image" href="https://www.esma.europa.eu/profiles/esma_website/themes/custom/esma/apple-startup.png">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="https://www.esma.europa.eu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" />
+<link rel="stylesheet" href="https://www.esma.europa.eu/sites/default/files/css/css_Cfo4KeaJsJoacgLxuPQTCrlaMnpC49Qu8YyRV9mODnc.css" />
+<link rel="stylesheet" href="https://www.esma.europa.eu/sites/default/files/css/css_uVqkPqkzPSKBqVjnz_mtUGS3bYCCSPq_RNxLtR_g-4o.css" media="screen" />
+<link rel="stylesheet" href="https://www.esma.europa.eu/sites/default/files/css/css_BlTYzupj5SwLoSpJSRGkZBAz_0fl2iuXVLYUoKDN9qE.css" />
+<link rel="stylesheet" href="https://www.esma.europa.eu/sites/default/files/css/css_1qV40C7nSmswKYiUwzPfBInfKM-HQHxox7l1YePF-qc.css" />
+<link rel="stylesheet" href="https://www.esma.europa.eu/sites/default/files/css/css_nyXPTPubjnhX68i8EDOQzue9Dsn9xlNSUsU8jUiD6n8.css" />
+<link rel="stylesheet" href="https://www.esma.europa.eu/sites/default/files/css/css_TJMi1Oa7oPXjfaGgNQc7_lx_zzV54wL3_mMYmgKFsUc.css" media="screen" />
+<link rel="stylesheet" href="https://www.esma.europa.eu/sites/default/files/css/css_3ux88VqfKNIxEGtQ6HI17ZZhJhI6iJw2kJiHlK4HpUE.css" media="print, projection" />
+<!--[if lt IE 9]>
+  <script src="https://www.esma.europa.eu/profiles/esma_website/themes/contrib/mothership/mothership/js/respond.min.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+  <script src="https://www.esma.europa.eu/profiles/esma_website/themes/contrib/mothership/mothership/js/html5.js"></script>
+<![endif]-->
+</head>
+<body class="not-front no-sidebars page-databases-library page-databases-library-esma-library" >
+<a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+
+
+<header role="banner">
+  <div class="header_content">
+  <div class="siteinfo">
+    
+      <a href="/" title="Home" rel="home">
+        <!--img src="<?//php print $logo; ?>" alt="<?//php print t('Home'); ?>" /-->
+                  <img src="/profiles/esma_website/themes/custom/esma/esma_logo.svg" alt="Home" />
+
+
+      </a>
+
+    
+        <hgroup class="visually-hidden">
+              <h1>ESMA</h1>
+                </hgroup>
+      </div>
+
+      <div class="header-region">
+      
+    
+<nav  role="menuitem" class="help_menu">
+  
+      
+  <ul><li><a href="/faq">FAQ</a></li>
+<li><a href="/glossary">Glossary</a></li>
+<li><a href="/about-esma/esma-in-short/contact-info">Contact Us</a></li>
+</ul>
+
+  
+
+
+
+    
+</nav>
+
+<nav  role="menuitem" class="follow_menu">
+  
+        <h4 class="title">Follow Esma :</h4>
+    
+  <ul><li class="esma_menu-picto" class="first leaf"><a href="https://www.linkedin.com/company/european-securities-and-markets-authority-esma-" title="LinkedIn" target="_blank"><img class="follow-picto" src="https://www.esma.europa.eu/sites/default/files/icon_linkedin_1.png" alt="LinkedIn" title="LinkedIn" /></a></li>
+<li class="esma_menu-picto" class="leaf"><a href="https://twitter.com/ESMAComms" title="Twitter" target="_blank"><img class="follow-picto" src="https://www.esma.europa.eu/sites/default/files/icon_twitter_1.png" alt="Twitter" title="Twitter" /></a></li>
+<li class="esma_menu-picto" class="leaf"><a href="https://www.youtube.com/channel/UCe5tFtIMPE5BbFGdqT330WQ" title="Youtube" target="_blank"><img class="follow-picto" src="https://www.esma.europa.eu/sites/default/files/icon_youtube_1.png" alt="Youtube" title="Youtube" /></a></li>
+<li class="esma_menu-picto" class="leaf"><a href="/rss.xml" title="RSS" target="_blank"><img class="follow-picto" src="https://www.esma.europa.eu/sites/default/files/icon_rss_1.png" alt="RSS" title="RSS" /></a></li>
+<li class="esma_menu-picto" class="last leaf"><a href="/newsletter/subscriptions" title="Notifications"><img class="follow-picto" src="https://www.esma.europa.eu/sites/default/files/icon_notif2.png" alt="" title="" /></a></li>
+</ul>
+
+  
+
+
+
+    
+</nav>
+
+<div >
+  
+      
+  
+  <p><a class="extranetlink" href="https://extranet.esma.europa.eu">Extranet</a></p>
+
+  </div>
+
+<div  role="search">
+  
+      
+  
+  <form action="/databases-library/esma-library?f[0]=im_field_document_type%3A41&amp;date_from=2016-09-10&amp;date_to=%2A" method="post" id="search-block-form" accept-charset="UTF-8">
+  <h2 class="element-invisible">Search form</h2>
+<div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search</label>
+ <input title="Enter the terms you wish to search for." placeholder="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="30" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" /></div><input type="hidden" name="form_build_id" value="form-6mYd0mJ7vne0NW4K2si0liIjv1Gk2U-mdlGhEa6IVcM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</form>
+  </div>
+  
+    </div>
+    </div>
+
+  <nav role="navigation" class="esma_tb-menu">
+    
+    
+<div >
+  
+      
+  
+  <div  class="tb-megamenu tb-megamenu-menu-esma-megamenu">
+      <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button" type="button">
+      <i class="icon-reorder"></i>
+    </button>
+    <div class="nav-collapse collapse always-show">
+    <ul  class="tb-megamenu-nav nav level-0 items-9">
+  <li  data-id="563" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega">
+  <a href="/""  class="href-level-1">
+        
+    <i class="icone_home"></i>          </a>
+  </li>
+
+<li  data-id="564" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a "  class="dropdown-toggle top-level href-level-1">
+        
+    About ESMA          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="3" data-hidewcol="0" id="tb-megamenu-column-3" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-3">
+  <li  data-id="572" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/about-esma/who-we-are""  class="mega-group-title href-level-2">
+        
+    Who we are          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-1" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-6">
+  <li  data-id="577" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/about-esma/esma-in-short/esma-organigramme""  class="href-level-3">
+        
+    ESMA organigramme          </a>
+  </li>
+
+<li  data-id="579" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/about-esma/esma-in-short/whos-who""  class="href-level-3">
+        
+    Organisation          </a>
+  </li>
+
+<li  data-id="578" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/databases-library/esma-library/?f%5B0%5D=im_esma_sections%3A2""  class="href-level-3">
+        
+    Corporate information          </a>
+  </li>
+
+<li  data-id="1014" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/databases-library/esma-library/?f%25255B0%25255D=im_esma_sections%3A420&f%5B0%5D=im_esma_sections%3A420""  class="href-level-3">
+        
+    Work programme and budget          </a>
+  </li>
+
+<li  data-id="580" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/about-esma/esma-in-short/contact-info""  class="href-level-3">
+        
+    Contact info          </a>
+  </li>
+
+<li  data-id="581" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/about-esma/esma-in-short/complaints""  class="href-level-3">
+        
+    Complaints          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="575" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/about-esma/careers""  class="mega-group-title href-level-2">
+        
+    CAREERS          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-2" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-1">
+  <li  data-id="1013" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="https://www.esma.europa.eu/databases-library/esma-library/?f%25255B0%25255D=im_field_document_type%3A57&f[0]=im_field_document_type%3A57&f%25255B0%25255D=im_field_document_type%3A57""  class="href-level-3">
+        
+    Vacancies          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="576" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/about-esma/procurement""  class="href-level-2">
+        
+    PROCUREMENT          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-5" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="574" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/about-esma/governance""  class="mega-group-title href-level-2">
+        
+    GOVERNANCE          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-4" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-6">
+  <li  data-id="582" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/about-esma/governance/european-supervisory-framework""  class="href-level-3">
+        
+    European supervisory framework          </a>
+  </li>
+
+<li  data-id="583" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/about-esma/governance/board-supervisors-and-ncas""  class="href-level-3">
+        
+    Board of Supervisors and NCAs          </a>
+  </li>
+
+<li  data-id="584" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/about-esma/governance/board-appeal""  class="href-level-3">
+        
+    Board of Appeal          </a>
+  </li>
+
+<li  data-id="585" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/about-esma/governance/management-board""  class="href-level-3">
+        
+    Management Board          </a>
+  </li>
+
+<li  data-id="586" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="https://esas-joint-committee.europa.eu""  class="href-level-3">
+        
+    Joint Committee          </a>
+  </li>
+
+<li  data-id="587" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/about-esma/governance/smsg""  class="href-level-3">
+        
+    Securities and Markets Stakeholder Group          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-7" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="989" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/about-esma/working-methods""  class="mega-group-title href-level-2">
+        
+    WORKING METHODS          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-6" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-1">
+  <li  data-id="573" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/about-esma/working-methods/standing-committees""  class="href-level-3">
+        
+    Standing Committees          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-8" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--2" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    
+<div >
+  
+      
+  
+  <p class="push_block-title">WHAT IS COMMING UP</p>
+<p>Consult our ongoing work</p>
+<p class="push_block-rectangle">ESMA'S WORK PROGRAMME</p>
+
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="565" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a "  class="dropdown-toggle top-level href-level-1">
+        
+    Press & News          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="3" data-hidewcol="0" id="tb-megamenu-column-9" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="589" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/press-news/esma-news""  class="href-level-2">
+        
+    ESMA NEWS          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-10" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-2">
+  <li  data-id="590" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/press-news/press-releases""  class="href-level-2">
+        
+    PRESS RELEASES          </a>
+  </li>
+
+<li  data-id="591" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/press-news/press-contact-information""  class="href-level-2">
+        
+    PRESS CONTACT INFORMATION          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-11" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-2">
+  <li  data-id="592" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/press-news/speaking-requests""  class="href-level-2">
+        
+    SPEAKING REQUESTS          </a>
+  </li>
+
+<li  data-id="593" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/press-news/key-dates""  class="href-level-2">
+        
+    KEY DATES          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-12" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-2">
+  <li  data-id="594" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/press-news/consultations""  class="href-level-2">
+        
+    CONSULTATIONS          </a>
+  </li>
+
+<li  data-id="595" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/press-news/hearings""  class="href-level-2">
+        
+    HEARINGS          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="566" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a "  class="dropdown-toggle top-level href-level-1">
+        
+    Policy activities          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="3" data-hidewcol="0" id="tb-megamenu-column-14" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="596" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/regulation/corporate-disclosure""  class="mega-group-title href-level-2">
+        
+    CORPORATE DISCLOSURE          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-13" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-6">
+  <li  data-id="607" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/convergence/ias-regulation""  class="href-level-3">
+        
+    IAS Regulation          </a>
+  </li>
+
+<li  data-id="602" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/regulation/corporate-disclosure/prospectus""  class="href-level-3">
+        
+    Prospectus          </a>
+  </li>
+
+<li  data-id="603" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/regulation/corporate-disclosure/transparency-directive""  class="href-level-3">
+        
+    Transparency          </a>
+  </li>
+
+<li  data-id="604" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/regulation/corporate-disclosure/corporate-governance-listed-companies""  class="href-level-3">
+        
+    Corporate Governance          </a>
+  </li>
+
+<li  data-id="605" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/regulation/corporate-disclosure/audit-regulation""  class="href-level-3">
+        
+    Audit          </a>
+  </li>
+
+<li  data-id="606" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/regulation/corporate-disclosure/takeover-bids""  class="href-level-3">
+        
+    Takeover Bids          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-16" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-4">
+  <li  data-id="597" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/regulation/credit-rating-agencies""  class="href-level-2">
+        
+    CREDIT RATING AGENCIES          </a>
+  </li>
+
+<li  data-id="598" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/regulation/fund-management""  class="href-level-2">
+        
+    FUND MANAGEMENT          </a>
+  </li>
+
+<li  data-id="599" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/regulation/mifid-ii-and-investor-protection""  class="mega-group-title href-level-2">
+        
+    MIFID (II) AND INVESTOR PROTECTION          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-15" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-1">
+  <li  data-id="1011" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/policy-rules/mifid-ii-and-investor-protection/investor-protection-policy""  class="href-level-3">
+        
+    Investor protection policy          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="611" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/regulation/trading/market-abuse""  class="href-level-2">
+        
+    Market Abuse          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-18" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-3">
+  <li  data-id="610" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/policy-rules/mifid-ii-and-mifir""  class="mega-group-title href-level-2">
+        
+    MiFID (II) and MiFIR          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-17" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-1">
+  <li  data-id="1221" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/policy-rules/mifid-ii-and-mifir/mifir-reporting-instructions""  class="href-level-3">
+        
+    MiFIR reporting          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="1037" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/policy-rules/benchmarks""  class="href-level-2">
+        
+    Benchmarks          </a>
+  </li>
+
+<li  data-id="612" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/regulation/trading/short-selling""  class="href-level-2">
+        
+    Short Selling          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-20" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="601" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/regulation/post-trading""  class="mega-group-title href-level-2">
+        
+    POST-TRADING          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-19" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-5">
+  <li  data-id="918" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/policy-rules/post-trading/trade-reporting""  class="href-level-3">
+        
+    Trade Reporting          </a>
+  </li>
+
+<li  data-id="615" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/regulation/post-trading/otc-derivatives-and-clearing-obligation""  class="href-level-3">
+        
+    OTC derivatives and clearing obligation          </a>
+  </li>
+
+<li  data-id="614" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/regulation/post-trading/non-financial-counterparties-nfcs""  class="href-level-3">
+        
+    Non-financial counterparties (NFCs)          </a>
+  </li>
+
+<li  data-id="919" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/policy-rules/post-trading/central-counterparties""  class="href-level-3">
+        
+    CCPs          </a>
+  </li>
+
+<li  data-id="617" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/regulation/post-trading/settlement""  class="href-level-3">
+        
+    Settlement          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="567" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a "  class="dropdown-toggle top-level href-level-1">
+        
+    Supervision          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-22" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="619" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/supervision/supervision""  class="mega-group-title href-level-2">
+        
+    SUPERVISION          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-21" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-2">
+  <li  data-id="624" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/supervision/credit-rating-agencies/supervision""  class="href-level-3">
+        
+    Credit Rating Agencies          </a>
+  </li>
+
+<li  data-id="618" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/supervision/trade-repositories""  class="href-level-3">
+        
+    Trade Repositories          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-23" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="620" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/supervision/enforcement""  class="href-level-2">
+        
+    ENFORCEMENT          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-24" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-2">
+  <li  data-id="804" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/supervision/non-eu-credit-rating-agencies""  class="href-level-2">
+        
+    Non-EU CRAs          </a>
+  </li>
+
+<li  data-id="613" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/regulation/post-trading/central-counterparties-ccps""  class="href-level-2">
+        
+    Non-EU CCPs and TRs          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="568" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a "  class="dropdown-toggle top-level href-level-1">
+        
+    Convergence          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="4" data-hidewcol="0" id="tb-megamenu-column-26" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="626" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/convergence/supervisory-convergence""  class="mega-group-title href-level-2">
+        
+    SUPERVISORY CONVERGENCE          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-25" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-2">
+  <li  data-id="627" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/convergence/breach-union-law""  class="href-level-3">
+        
+    Breach of Union law          </a>
+  </li>
+
+<li  data-id="628" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/convergence/mediation""  class="href-level-3">
+        
+    Mediation          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-27" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-2">
+  <li  data-id="920" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/convergence/ifrs-supervisory-convergence""  class="href-level-2">
+        
+    IFRS Supervisory Convergence          </a>
+  </li>
+
+<li  data-id="629" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/convergence/international-cooperation""  class="href-level-2">
+        
+    INTERNATIONAL COOPERATION          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="569" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a "  class="dropdown-toggle top-level href-level-1">
+        
+    Risk Analysis          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="4" data-hidewcol="0" id="tb-megamenu-column-28" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="632" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/market-analysis/financial-stability""  class="href-level-2">
+        
+    MARKETS, INFRASTRUCTURE & INVESTORS          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-30" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="633" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/market-analysis/financial-innovation""  class="mega-group-title href-level-2">
+        
+    INNOVATION & PRODUCTS          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-29" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-1">
+  <li  data-id="1226" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/risk-analysis/innovation-products/financial-innovation-day""  class="href-level-3">
+        
+    Financial Innovation Day          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="570" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown active">
+  <a "  class="dropdown-toggle top-level href-level-1">
+        
+    Rules, Databases & Library          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="3" data-hidewcol="0" id="tb-megamenu-column-31" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="635" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/databases-library/registers-and-data""  class="href-level-2">
+        
+    REGISTERS AND DATA          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-32" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="1222" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="https://www.esma.europa.eu/questions-and-answers""  class="href-level-2">
+        
+    QUESTIONS AND ANSWERS          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="megamenu_block-spacer" data-width="3" data-hidewcol="" id="tb-megamenu-column-33" class="tb-megamenu-column span3  mega-col-nav megamenu_block-spacer">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="636" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega active">
+  <a href="/databases-library/esma-library""  class="href-level-2">
+        
+    ESMA LIBRARY          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-34" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="631" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/convergence/guidelines-and-technical-standards""  class="href-level-2">
+        
+    GUIDELINES AND TECHNICAL STANDARDS          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="571" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a "  class="dropdown-toggle top-level href-level-1">
+        
+    Investor corner          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="3" data-hidewcol="0" id="tb-megamenu-column-35" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="637" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/investor-corner/check-if-firm-regulated""  class="href-level-2">
+        
+    CHECK IF A FIRM IS REGULATED          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-36" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="638" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/investor-corner/get-ready-invest""  class="href-level-2">
+        
+    GET READY TO INVEST          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-37" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="639" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/investor-corner/file-complaint""  class="href-level-2">
+        
+    FILE A COMPLAINT          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-38" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="640" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/investor-corner/warning-and-publications-investors""  class="href-level-2">
+        
+    WARNING AND PUBLICATIONS FOR INVESTORS          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+      </div>
+  </div>
+
+  </div>
+  
+  </nav>
+</header>
+<div class="page_content-layout">
+<div class="page">
+<div class="Breadcrumb">
+  <div class="breadcrumb left" role="navigation"><a href="/">Home</a> &gt; ESMA Library</div>
+  
+    
+<div >
+  
+      
+  
+  <span class="a2a_kit a2a_target addtoany_list" id="da2a_1">
+      
+      <a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share#url=https%3A%2F%2Fwww.esma.europa.eu%2Fdatabases-library%2Fesma-library&amp;title=ESMA%20LIBRARY"> test</a>
+      
+    </span>
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if(window.da2a)da2a.script_load();
+//--><!]]>
+</script>
+  </div>
+  
+  <a title="Print this page" href="javascript:window.print()" class="btn right" id="esma_print"> <span>Print</span></a>
+
+</div>
+  <div role="main" id="main-content">
+
+            <h1>ESMA LIBRARY</h1>
+        
+    
+    
+    
+
+    
+    
+    <div class="esma-library_intro">The ESMA Library contains all ESMA documents. Please use the search and filter options to find specific documents.</div><div class="search-page_header esma-library"><form class="search-form" action="/databases-library/esma-library?f[0]=im_field_document_type%3A41&amp;date_from=2016-09-10&amp;date_to=%2A" method="post" id="search-form" accept-charset="UTF-8"><div class="container-inline form-wrapper" id="edit-basic"><div class="form-item form-type-textfield form-item-keys">
+  <label for="edit-keys">FULL TEXT</label>
+ <input type="text" id="edit-keys" name="keys" value="" size="30" maxlength="255" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Search" /><input type="hidden" name="get" value="{&quot;f&quot;:[&quot;im_field_document_type:41&quot;],&quot;date_from&quot;:&quot;2016-09-10&quot;,&quot;date_to&quot;:&quot;*&quot;}" />
+<div class="form-item form-type-textfield form-item-reference">
+  <label for="edit-reference">REFERENCE</label>
+ <input placeholder="Enter a reference or a part of reference" type="text" id="edit-reference" name="reference" value="" size="30" maxlength="128" />
+</div>
+<input type="submit" id="edit-submit-ref" name="op" value="Search" /></div><input type="hidden" name="form_build_id" value="form-mV0mSQrm47LMoRHbXW-zwFE0LxgokK99Hsl0dHT5_ak" />
+<input type="hidden" name="form_id" value="apachesolr_search_custom_page_search_form" />
+</form></div>  <div class="search-page_main">
+    <div class="search-page_nbresults">
+      <div class="search_page-documents" rel="nofollow">
+        <div class="search_total-number">13</div>
+      </div>
+      <div class="search_menu-text">DOCUMENTS</div>
+    </div>
+    <div class="search-page_refine_results">
+      <div class="search-page_refine">
+        <h3>REFINE YOUR SEARCH</h3>
+        <div class="search-page_refine_blocks">
+          <div class="resp-padding"><form action="/databases-library/esma-library?f[0]=im_field_document_type%3A41&amp;date_from=2016-09-10&amp;date_to=%2A" method="post" id="esma-apachesolr-date-search-form" accept-charset="UTF-8"><div  class="container-inline-date"><div class="form-item form-type-date-popup form-item-from">
+  <label for="edit-from">From</label>
+ <div id="edit-from"  class="date-padding clearfix"><div class="form-item form-type-textfield form-item-from-date">
+  <label class="element-invisible" for="edit-from-datepicker-popup-0">Date</label>
+ <input placeholder="DD/MM/YYYY" type="text" id="edit-from-datepicker-popup-0" name="from[date]" value="10/09/2016" size="30" maxlength="30" />
+</div>
+</div>
+</div>
+</div><div  class="container-inline-date"><div class="form-item form-type-date-popup form-item-to">
+  <label for="edit-to">to</label>
+ <div id="edit-to"  class="date-padding clearfix"><div class="form-item form-type-textfield form-item-to-date">
+  <label class="element-invisible" for="edit-to-datepicker-popup-0">Date</label>
+ <input placeholder="DD/MM/YYYY" type="text" id="edit-to-datepicker-popup-0" name="to[date]" value="" size="30" maxlength="30" />
+</div>
+</div>
+</div>
+</div><input type="submit" id="edit-submit--3" name="op" value="refine dates" /><input type="hidden" name="form_build_id" value="form-LtiodvDY_wykMHypvyq3KyPJN0sSWWvZ8JNDKZLh320" />
+<input type="hidden" name="form_id" value="esma_apachesolr_date_search_form" />
+</form><h3 class="facet-title">Sections</h3><ul class="facetapi-facetapi-links facetapi-facet-im-esma-sections" id="facetapi-facet-apachesolrsolr-block-im-esma-sections"><li class="leaf first"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_esma_sections%3A20&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--20">MiFID - Secondary Markets (5)<span class="element-invisible"> Apply MiFID - Secondary Markets filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_esma_sections%3A24&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--21">Post Trading (4)<span class="element-invisible"> Apply Post Trading filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_esma_sections%3A19&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--22">MiFID - Investor Protection (2)<span class="element-invisible"> Apply MiFID - Investor Protection filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_esma_sections%3A426&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--23">Benchmarks (1)<span class="element-invisible"> Apply Benchmarks filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_esma_sections%3A35&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--24">Guidelines and Technical standards (1)<span class="element-invisible"> Apply Guidelines and Technical standards filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_esma_sections%3A8&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--25">Joint Committee (1)<span class="element-invisible"> Apply Joint Committee filter </span></a></li>
+<li class="leaf last"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_esma_sections%3A424&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--26">Securities Financing Transactions (1)<span class="element-invisible"> Apply Securities Financing Transactions filter </span></a></li>
+</ul><h3 class="facet-title">Type of document</h3><ul class="facetapi-facetapi-links facetapi-facet-im-field-document-type" id="facetapi-facet-apachesolrsolr-block-im-field-document-type"><li class="leaf first"><a href="/databases-library/esma-library/?date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-active" id="facetapi-link">(-) <span class="element-invisible"> Remove Consultation Paper filter </span></a>Consultation Paper</li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A51&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--2">Reference (61)<span class="element-invisible"> Apply Reference filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A49&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--3">Press Release (23)<span class="element-invisible"> Apply Press Release filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A52&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--4">Speech (14)<span class="element-invisible"> Apply Speech filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A50&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--5">Q&amp;A (13)<span class="element-invisible"> Apply Q&amp;A filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A412&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--6">Report (10)<span class="element-invisible"> Apply Report filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A369&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--7">Summary of Conclusions (9)<span class="element-invisible"> Apply Summary of Conclusions filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A48&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--8">Opinion (8)<span class="element-invisible"> Apply Opinion filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A47&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--9">Letter (7)<span class="element-invisible"> Apply Letter filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A53&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--10">Statement (7)<span class="element-invisible"> Apply Statement filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A45&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--11">Guidelines &amp; Recommendations (6)<span class="element-invisible"> Apply Guidelines &amp; Recommendations filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A44&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--12">Final Report (5)<span class="element-invisible"> Apply Final Report filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A422&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--13">Compliance table (3)<span class="element-invisible"> Apply Compliance table filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A364&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--14">SMSG Advice (3)<span class="element-invisible"> Apply SMSG Advice filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A55&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--15">Tender (3)<span class="element-invisible"> Apply Tender filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A57&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--16">Vacancy (3)<span class="element-invisible"> Apply Vacancy filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A365&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--17">Technical Standards (2)<span class="element-invisible"> Apply Technical Standards filter </span></a></li>
+<li class="leaf"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A43&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--18">Decision (1)<span class="element-invisible"> Apply Decision filter </span></a></li>
+<li class="leaf last"><a href="/databases-library/esma-library/?f[0]=im_field_document_type%3A41&amp;f[1]=im_field_document_type%3A363&amp;date_from=2016-09-10&amp;date_to=%2A" rel="nofollow" class="facetapi-inactive" id="facetapi-link--19">Technical Advice (1)<span class="element-invisible"> Apply Technical Advice filter </span></a></li>
+</ul></div>        </div>
+      </div>
+      <div class="search-page_results">
+        <div class="search-page_your_filter">Your filters <div class="cartouche_search-filter"><span class="cartouche_filter-exposed">from 10/09/2016  <a href="/databases-library/esma-library?f[0]=im_field_document_type%3A41" class="search-delete">X</a></span> <span class="cartouche_filter-exposed">Consultation Paper <a href="/databases-library/esma-library?date_from=2016-09-10&date_to=%2A" class="search-delete">X</a></span> </div><span class=""><a href="/databases-library/esma-library" class="search-reset">Reset all filters</a></span></div>        <div class="search-page_perpage">
+    <form>
+    <select id="select_perpage" onchange="document.location.href='/databases-library/esma-library?f[0]=im_field_document_type%3A41&date_from=2016-09-10&date_to=%2A&perpage='+document.getElementById('select_perpage').value">  <option value="20" >20 per page</option>
+      <option value="50" >50 per page</option>
+      <option value="100" >100 per page</option>
+    </select>
+    </form>
+    </div>
+        <div class="item-list-pager"></div>
+          <table class="esma-library_table footable">
+            <thead>
+            <tr>
+              <th class="esma-library-table_date"><a href="/databases-library/esma-library?f[0]=im_field_document_type%3A41&date_from=2016-09-10&date_to=%2A&solrsort=ds_created%20asc" title="sort by Date">Date</a></th>
+              <th class="esma-library-table_ref"><a href="/databases-library/esma-library?f[0]=im_field_document_type%3A41&date_from=2016-09-10&date_to=%2A&solrsort=ss_esma_document_reference%20asc" title="sort by Reference">Ref.</a></th>
+              <th class="esma-library-table_title"><a href="/databases-library/esma-library?f[0]=im_field_document_type%3A41&date_from=2016-09-10&date_to=%2A&solrsort=sort_label%20asc" title="sort by Reference">Title</a></th>
+              <th class="esma-library-table_section">Section</th>
+              <th class="esma-library-table_type">Type</th>
+              <th class="esma-library-table_download">Download</th>
+              <th class="esma-library-table_info">Info</th>
+              <th data-hide="phone,tablet" class="esma-library-table_summary">Summary</th>
+              <th data-hide="phone,tablet" class="esma-library-table_reldoc">Related Documents</th>
+              <th data-hide="phone,tablet" class="esma-library-table_translated">Translated versions</th>
+            </tr>
+            </thead>
+            <tbody>
+             <tr>
+  <td class="esma_library-date">31/01/2017</td>
+  <td class="esma_library-ref">ESMA70-708036281-17</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/esma70-708036281-17_cp_on_guidelines_on_tr_portability.pdf">Consultation Paper on ESMA’s Guidelines on transfer of data between TRs</a></td>
+  <td class="esma_library-section"><span class="library_section-tag">Post Trading</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/esma70-708036281-17_cp_on_guidelines_on_tr_portability.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">1003.51 KB</span></td>
+  <td class="esma_library-info"><i class="no_icone_info"> </i></td>
+  <td class="esma_library-summary"></td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">19/12/2016</td>
+  <td class="esma_library-ref">JC/2016/86</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/jc-2016-86_discussion_paper_big_data.pdf">Joint Committee Discussion Paper on the Use of Big Data by Financial Institutions</a></td>
+  <td class="esma_library-section"><span class="library_section-tag">Joint Committee</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/jc-2016-86_discussion_paper_big_data.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">538.4 KB</span></td>
+  <td class="esma_library-info"><i class="no_icone_info"> </i></td>
+  <td class="esma_library-summary"></td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">19/12/2016</td>
+  <td class="esma_library-ref">2016/1672</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-esma-1672_-_consultation_paper_on_technical_advice_on_tr_fees_under_sftr_and_emir.pdf">Technical advice to the Commission on fees for TRs under SFTR and on certain amendments of for fees under EMIR</a></td>
+  <td class="esma_library-section"><span class="library_section-tag">Post Trading</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/2016-esma-1672_-_consultation_paper_on_technical_advice_on_tr_fees_under_sftr_and_emir.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">709.68 KB</span></td>
+  <td class="esma_library-info"><i class="icone_info"> </i></td>
+  <td class="esma_library-summary"><p><strong>Reasons for publication</strong></p>
+
+<p>On 15 January 2016 the European Securities and Markets Authority (ESMA) received a formal request from the European Commission (Commission) to provide technical advice to assist the Commission in formulating a Regulation on fees for Trade Repositories (TRs) under SFTR by a delegated act.</p>
+
+<p><strong>Contents</strong></p>
+
+<p>The present report contains nine sections. Section 1 refers to the Executive Summary of the report. Section 2 explains the background to our proposals. Section 3 outlines the ESMA’s expected costs. Section 4 establishes the general approach for the determination of fees under EMIR and SFTR. Section 5 explains how ESMA will manage surpluses and deficits under EMIR and SFTR. Section 6 points out the rationale and computation of TRs fees for registration and extension of registration under SFTR. Sections 7 and 8 present the supervision fees under EMIR and SFTR and recognition fees under SFTR. Section 9 refers to the conditions of payment and reimbursement and, finally, Section 10 addresses the instances where delegation to NCAs takes place. Annex I contains the summary of the questions posed by ESMA and Annex II includes the Commission’s mandate to ESMA.</p>
+
+<p>The amendments to fees under EMIR that are consulted in this document are required in order to ensure level –playing field with the ESMA’s fees to TRs under SFTR.</p>
+
+<p><strong>Next Steps</strong></p>
+
+<p>ESMA will consider the feedback it receives to this consultation in Q1 2017 and expects to publish and submit a final report of the technical advice to the European Commission for endorsement by end of Q1/beginning of Q2 of 2017.</p>
+</td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">15/12/2016</td>
+  <td class="esma_library-ref">2016/1661</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-1661_consultation_paper_on_tr_public_data_under_emir.pdf">Consultation Paper- Draft technical standards on data to be made publicly available by TRs under Article 81 of EMIR</a></td>
+  <td class="esma_library-section"><span class="library_section-tag">Post Trading</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/2016-1661_consultation_paper_on_tr_public_data_under_emir.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">740.22 KB</span></td>
+  <td class="esma_library-info"><i class="no_icone_info"> </i></td>
+  <td class="esma_library-summary"></td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">10/11/2016</td>
+  <td class="esma_library-ref">2016/1562</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-1562_cp_package_orders_mifir.pdf">Consultation Paper- Draft RTS on package orders for which there is a liquid market</a></td>
+  <td class="esma_library-section"><span class="library_section-tag">MiFID - Secondary Markets</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/2016-1562_cp_package_orders_mifir.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">782.55 KB</span></td>
+  <td class="esma_library-info"><i class="no_icone_info"> </i></td>
+  <td class="esma_library-summary"></td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">28/10/2016</td>
+  <td class="esma_library-ref">2016/1529</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/consultation_paper_on_joint_esma_eba_guidelines_on_suitability_of_management_body_esma-2016-1529.pdf">Joint ESMA and EBA Guidelines on the assessment of the suitability of members of the management body and key function holders</a></td>
+  <td class="esma_library-section"><span class="library_section-tag">Guidelines and Technical standards</span>, <span class="library_section-tag">MiFID - Investor Protection</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/consultation_paper_on_joint_esma_eba_guidelines_on_suitability_of_management_body_esma-2016-1529.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">1.13 MB</span></td>
+  <td class="esma_library-info"><i class="no_icone_info"> </i></td>
+  <td class="esma_library-summary"></td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">06/10/2016</td>
+  <td class="esma_library-ref">2016/1440</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-1440.pdf">Guidelines on the calibration, publication and reporting of trading halts</a></td>
+  <td class="esma_library-section"><span class="library_section-tag">MiFID - Secondary Markets</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/2016-1440.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">946.62 KB</span></td>
+  <td class="esma_library-info"><i class="no_icone_info"> </i></td>
+  <td class="esma_library-summary"></td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">05/10/2016</td>
+  <td class="esma_library-ref">2016/1437</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-1437_-_cp_guidelines_management_body_of_market_operators_and_drsps.pdf">Consultation Paper on Guidelines on the management body of market operators and data reporting services providers </a></td>
+  <td class="esma_library-section"><span class="library_section-tag">MiFID - Secondary Markets</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/2016-1437_-_cp_guidelines_management_body_of_market_operators_and_drsps.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">756.21 KB</span></td>
+  <td class="esma_library-info"><i class="no_icone_info"> </i></td>
+  <td class="esma_library-summary"></td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">05/10/2016</td>
+  <td class="esma_library-ref">2016/1436</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-1436_cp_guidelines_on_product_governance.pdf">Consultation Paper on Draft guidelines on MiFID II product governance requirements </a></td>
+  <td class="esma_library-section"><span class="library_section-tag">MiFID - Investor Protection</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/2016-1436_cp_guidelines_on_product_governance.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">661.2 KB</span></td>
+  <td class="esma_library-info"><i class="no_icone_info"> </i></td>
+  <td class="esma_library-summary"></td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">03/10/2016</td>
+  <td class="esma_library-ref">2016/1422</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-1422_cp_on_rts_specifying_the_scope_of_the_consolidated_tape_for_non-equity_financial_instruments.pdf">CP on RTS specifying the scope of the consolidated tape for non-equity financial instruments</a></td>
+  <td class="esma_library-section"><span class="library_section-tag">MiFID - Secondary Markets</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/2016-1422_cp_on_rts_specifying_the_scope_of_the_consolidated_tape_for_non-equity_financial_instruments.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">343.95 KB</span></td>
+  <td class="esma_library-info"><i class="icone_info"> </i></td>
+  <td class="esma_library-summary"><p>This consultation paper (CP) seeks stakeholders’ views on the draft Regulatory Technical Standard (RTS) ESMA is required to draft under Article 65(8)(c) of Directive 2014/65/EU with regard to the consolidated tape for non-equity instruments.</p>
+
+<p>The input from stakeholders will help ESMA in finalising this draft RTS. Respondents to the consultations are encouraged to provide the relevant data to support their arguments or proposals.</p>
+
+<p><strong>Contents</strong></p>
+
+<p>Section 2 introduces the topic. Section 3 addresses the issue of specialisation of the CT, whereas section 4 discusses which trading venues and APAs should be mandatorily included in the CT. Finally, the CP ends with section 5 which discusses the inclusion of new trading venues and APAs to the CT as well as the removal of a trading venue or APA from the CT.</p>
+
+<p><strong>Next Steps</strong></p>
+
+<p>On the basis of the responses to this CP, ESMA will finalise the draft RTS and submit the final report to the European Commission for endorsement. The consultation closes on 5 December.</p>
+</td>
+  <td class="esma_library-related"><div class="related-documents"><div  about="/document/esma-consults-consolidated-tape-non-equity-products" typeof="sioc:Item foaf:Document" class="ds-1col node node-library-document view-mode-teaser_main clearfix">
+
+  
+  <div id="file-19917" class="file file-document file-application-pdf">
+
+      
+  
+  <div class="content">
+    <div class="file"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-1425_esma_consults_on_consolidated_tape_for_non-equity_products_0.pdf" type="application/pdf; length=147715" class="file-icon mime-application-pdf">2016-1425_esma_consults_on_consolidated_tape_for_non-equity_products.pdf</a></div>  </div>
+
+  
+</div>
+</div>
+
+</div><div class="related-documents"><div  about="/document/reply-form-consultation-non-equity-tape" typeof="sioc:Item foaf:Document" class="ds-1col node node-library-document view-mode-teaser_main clearfix">
+
+  
+  <div id="file-19915" class="file file-document file-application-vndopenxmlformats-officedocumentwordprocessingmldocument">
+
+      
+  
+  <div class="content">
+    <div class="file"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-1422_reply_form_to_consultation_on_non-equity_tape_0.docx" type="application/vnd.openxmlformats-officedocument.wordprocessingml.document; length=772232" class="file-icon mime-application-vndopenxmlformats-officedocumentwordprocessingmldocument">2016-1422_reply_form_to_consultation_on_non-equity_tape.docx</a></div>  </div>
+
+  
+</div>
+</div>
+
+</div></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">30/09/2016</td>
+  <td class="esma_library-ref">2016/1409</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-1409_sftr_consultation_paper_-_draft_rts_and_its_under_sftr_and_amendments_to_related_emir_rts.pdf">Draft RTS and ITS under SFTR and amendments to related EMIR RTS</a></td>
+  <td class="esma_library-section"><span class="library_section-tag">Post Trading</span>, <span class="library_section-tag">Securities Financing Transactions</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/2016-1409_sftr_consultation_paper_-_draft_rts_and_its_under_sftr_and_amendments_to_related_emir_rts.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">5.63 MB</span></td>
+  <td class="esma_library-info"><i class="icone_info"> </i></td>
+  <td class="esma_library-summary"><p>The European Securities and Markets Authority (ESMA) is publishing this Consultation Paper as part of its consultations on Level 2 measures under the Securities Financing Transactions Regulation (SFTR) as well as certain amendments to the Level 2 measures under EMIR in order to take into account legal developments as well as to ensure consistency, where relevant, between the frameworks of both regulations</p>
+
+<p><strong>Contents</strong></p>
+
+<p>Section 1 is the executive summary of the document. Section 2 explains the background to our proposals. Section 3 includes detailed information on the procedure and criteria for registration as TR under SFTR. Section 4 details the use of internationally agreed reporting standards, the reporting logic under SFTR and the main aspects of the structure of an SFT report. Section 5 covers the requirements regarding transparency of data and aggregation and comparison of data. Section 6 details the access levels of authorities. Section 7 contains the tables of fields, for the relevant types of SFTs, as well as a summary of all the questions.</p>
+
+<p><strong>Next Steps</strong></p>
+
+<p>ESMA will consider the feedback it received to this document in the fourth quarter of 2016. The final report and the draft technical standards will be submitted to the European Commission for endorsement by the end of Q1/beginning Q2 2017.</p>
+</td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">29/09/2016</td>
+  <td class="esma_library-ref">2016/1406</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-1406.pdf">Draft technical standards under the Benchmarks Regulation</a></td>
+  <td class="esma_library-section"><span class="library_section-tag">Benchmarks</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/2016-1406.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">1.67 MB</span></td>
+  <td class="esma_library-info"><i class="no_icone_info"> </i></td>
+  <td class="esma_library-summary"></td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+<tr>
+  <td class="esma_library-date">20/09/2016</td>
+  <td class="esma_library-ref">2016/1389</td>
+  <td class="esma_library-title"><a href="https://www.esma.europa.eu/sites/default/files/library/2016-1389_dp_trading_obligation_for_derivatives_mifir.pdf">Discussion Paper on the trading obligation for derivatives under MiFIR</a></td>
+  <td class="esma_library-section"><span class="library_section-tag">MiFID - Secondary Markets</span></td>
+  <td class="esma_library-type">Consultation Paper</td>
+  <td class="esma_library-download"><span class="extention_dec-table"><a href="https://www.esma.europa.eu/system/files_force/library/2016-1389_dp_trading_obligation_for_derivatives_mifir.pdf?download=1">PDF</a></span><br /><span class="extention_dec-size">1.3 MB</span></td>
+  <td class="esma_library-info"><i class="no_icone_info"> </i></td>
+  <td class="esma_library-summary"></td>
+  <td class="esma_library-related"></td>
+  <td class="esma_library-translated"></td>
+</tr>
+            </tbody>
+          </table>
+
+        <div class="item-list-pager"></div>      </div>
+    </div>
+  </div>
+  
+
+    
+  </div><!-- /main-->
+
+  
+    </div>
+</div><!-- /page-->
+
+<footer role="contentinfo" class="page_footer">
+  <div class="footer_content">
+    <div class="logo_footer-container">
+     <a href="/"> <div class="logo_footer"> </div></a>
+      <div class="europe_container">
+        <span class="text_europe">ESMA is an authority of the European Union</span>
+        <span class="europe_flag"></span>
+        <div class="color_block"></div>
+      </div>
+    </div>
+  
+    
+<nav  role="navigation">
+  
+      
+  <ul><li><a href="/legal-notice">Legal notice</a></li>
+<li><a href="/useful-links">Useful links</a></li>
+<li><a href="/data-protection">Data protection</a></li>
+<li><a href="/sitemap">Sitemap</a></li>
+</ul>
+
+  
+
+
+
+  
+</nav>
+
+<nav  role="navigation">
+  
+      
+  <ul><li><a href="/about-esma/careers">Careers</a></li>
+<li><a href="/faq">FAQ</a></li>
+<li><a href="/glossary">Glossary</a></li>
+<li><a href="/about-esma/esma-in-short/contact-info">Contact Us</a></li>
+</ul>
+
+  
+
+
+
+  
+</nav>
+  
+  </div>
+</footer>
+
+<script>window.piwik_search_results = 13;</script>
+<script src="https://www.esma.europa.eu/sites/default/files/js/js_UriTVW1wegtvrYrkP_7G7Yjz73B9fyzrV2I9jp1cK08.js"></script>
+<script src="https://www.esma.europa.eu/sites/default/files/js/js_trQPtGFlq8MA7tXoXxxK52sc0dmVdexHZMnG-WxBQVY.js"></script>
+<script src="https://www.esma.europa.eu/sites/default/files/js/js_f0SD6felQ-_eVFuFKrrnKfMuvqAIhKnAIYFFlqJVfwY.js"></script>
+<script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.esma.europa.eu/" : "http://piwik.esma.europa.eu/");_paq.push(["setSiteId", "22"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();</script>
+<script src="https://www.esma.europa.eu/sites/default/files/js/js_b-v_6G82rRv5TRZ11VMYCWSboopc2wulwWo8BML_k6Q.js"></script>
+<script>window.a2a_config=window.a2a_config||{};window.da2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='https://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);da2a.script_load=function(){};},script_onready:function(){da2a.script_ready=true;if(da2a.html_done)da2a.init();},init:function(){for(var i=0,el,target,targets=da2a.targets,length=targets.length;i<length;i++){el=document.getElementById('da2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}da2a.done=true;}da2a.targets=[];}};(function ($){Drupal.behaviors.addToAny = {attach: function (context, settings) {if (context !== document && window.da2a) {if(da2a.script_ready)a2a.init_all('page');da2a.script_load();}}}})(jQuery);a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.callbacks.push({ready:da2a.script_onready});a2a_config.templates=a2a_config.templates||{};a2a_config.no_3p=1;a2a_config.num_services = 4; /*SERVICE NUMBER*/
+a2a_config.prioritize = ["twitter", "linkedin", "facebook", "email"]; /*ORDER OF THE SERVICES*/
+a2a_config.exclude_services = ["google+", "pinterest", "reddit", "tumblr", "whatsapp"]; /*SERVICES EXCLUDEDS*/</script>
+<script src="https://www.esma.europa.eu/sites/default/files/js/js_l6xWrHRNloJEvPUbNoTi_lB6wuc2I03bTP2FsE_iYgw.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"esma","theme_token":"ADHa0xaV9LOGUvbwQ8iCABcw9B322Xqdcg2pFHxlMH4","jquery_version":"1.10","js":{"0":1,"1":1,"profiles\/esma_website\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/esma_website\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/esma_website\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/esma_website\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"profiles\/esma_website\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"profiles\/esma_website\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"profiles\/esma_website\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"profiles\/esma_website\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"profiles\/esma_website\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"profiles\/esma_website\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"profiles\/esma_website\/modules\/contrib\/date\/date_popup\/jquery.timeentry.pack.js":1,"profiles\/esma_website\/libraries\/FooTable\/js\/footable.js":1,"misc\/ajax.js":1,"profiles\/esma_website\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"profiles\/esma_website\/modules\/contrib\/linkit\/js\/linkit.js":1,"misc\/progress.js":1,"profiles\/esma_website\/modules\/contrib\/linkit\/editors\/ckeditor\/linkitDialog.js":1,"profiles\/esma_website\/modules\/contrib\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"profiles\/esma_website\/modules\/custom\/esma_module\/js\/esma-tb-megamenu-touch.js":1,"profiles\/esma_website\/modules\/contrib\/piwik\/piwik.js":1,"2":1,"profiles\/esma_website\/modules\/contrib\/date\/date_popup\/date_popup.js":1,"profiles\/esma_website\/modules\/contrib\/date_popup_mobile\/date_popup_mobile.js":1,"profiles\/esma_website\/modules\/contrib\/facetapi\/facetapi.js":1,"profiles\/esma_website\/modules\/contrib\/footable\/js\/caller.js":1,"3":1,"profiles\/esma_website\/themes\/custom\/esma\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"profiles\/esma_website\/modules\/contrib\/date\/date_popup\/themes\/jquery.timeentry.css":1,"profiles\/esma_website\/libraries\/FooTable\/css\/footable.core.min.css":1,"profiles\/esma_website\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css":1,"profiles\/esma_website\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"profiles\/esma_website\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/esma_website\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/esma_website\/modules\/custom\/esma_module\/css\/esma_module.css":1,"modules\/field\/theme\/field.css":1,"profiles\/esma_website\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"profiles\/esma_website\/modules\/contrib\/views\/css\/views.css":1,"profiles\/esma_website\/modules\/contrib\/simplenews\/simplenews.css":1,"profiles\/esma_website\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/esma_website\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/esma_website\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"profiles\/esma_website\/modules\/contrib\/panels\/css\/panels.css":1,"modules\/search\/search.css":1,"profiles\/esma_website\/modules\/contrib\/tb_megamenu\/css\/bootstrap.css":1,"profiles\/esma_website\/modules\/contrib\/tb_megamenu\/css\/base.css":1,"profiles\/esma_website\/modules\/contrib\/tb_megamenu\/css\/default.css":1,"profiles\/esma_website\/modules\/contrib\/tb_megamenu\/css\/compatibility.css":1,"profiles\/esma_website\/modules\/contrib\/addtoany\/addtoany.css":1,"profiles\/esma_website\/themes\/contrib\/mothership\/mothership\/css\/normalize.css":1,"profiles\/esma_website\/themes\/contrib\/mothership\/mothership\/css\/mothership-default.css":1,"profiles\/esma_website\/themes\/contrib\/mothership\/mothership\/css\/mothership-layout.css":1,"profiles\/esma_website\/themes\/contrib\/mothership\/mothership\/css\/mothership.css":1,"profiles\/esma_website\/themes\/custom\/esma\/css\/esma.css":1,"profiles\/esma_website\/themes\/custom\/esma\/css\/ckeditor_list.css":1,"profiles\/esma_website\/themes\/custom\/esma\/css\/extranetlink.css":1,"profiles\/esma_website\/themes\/custom\/esma\/css\/print.css":1}},"linkit":{"autocompletePath":"https:\/\/www.esma.europa.eu\/linkit\/autocomplete\/___profile___?s=","dashboardPath":"\/linkit\/dashboard\/","currentInstance":{}},"piwik":{"trackMailto":1},"urlIsAjaxTrusted":{"\/databases-library\/esma-library?f[0]=im_field_document_type%3A41\u0026date_from=2016-09-10\u0026date_to=%2A":true},"datePopup":{"edit-from-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":1,"dateFormat":"dd\/mm\/yy","yearRange":"-27:+3","fromTo":false,"defaultDate":"0y"}},"edit-to-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":1,"dateFormat":"dd\/mm\/yy","yearRange":"-27:+3","fromTo":false,"defaultDate":"0y"}}},"facetapi":{"facets":[{"limit":"10","id":"facetapi-facet-apachesolrsolr-block-im-field-document-type","searcher":"apachesolr@solr","realmName":"block","facetName":"im_field_document_type","queryType":"term","widget":"facetapi_links","showMoreText":"Show more","showFewerText":"Show fewer"},{"limit":"10","id":"facetapi-facet-apachesolrsolr-block-im-esma-sections","searcher":"apachesolr@solr","realmName":"block","facetName":"im_esma_sections","queryType":null,"widget":"facetapi_links","showMoreText":"Show more","showFewerText":"Show fewer"},{"limit":"10","id":"facetapi-facet-apachesolrsolr-block-is-esma-bundle-group","searcher":"apachesolr@solr","realmName":"block","facetName":"is_esma_bundle_group","queryType":null,"widget":"facetapi_links","showMoreText":"Show more","showFewerText":"Show fewer"}]}});</script>
+
+      
+<script>da2a.targets=[
+{title:"ESMA LIBRARY",url:"https:\/\/www.esma.europa.eu\/databases-library\/esma-library"}];
+da2a.html_done=true;if(da2a.script_ready&&!da2a.done)da2a.init();da2a.script_load();</script>
+
+<!--[if lte IE 9]>
+<script src="https://www.esma.europa.eu/profiles/esma_website/themes/custom/esma/js/jquery.placeholder.min.js"></script>
+<script>jQuery(document).ready(function() {jQuery('input').placeholder();});</script>
+<![endif]-->
+</body>
+</html>
+

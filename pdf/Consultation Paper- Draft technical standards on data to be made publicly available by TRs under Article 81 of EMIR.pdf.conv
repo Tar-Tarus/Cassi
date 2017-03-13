@@ -1,0 +1,3257 @@
+ 
+
+  
+
+ 
+
+Consultation paper  
+Draft technical standards on data to be made publicly available by TRs 
+under Article 81 of EMIR 
+
+ 
+
+ 
+
+15 December 2016| ESMA/2016/1661 
+
+ 
+
+ 
+
+ 
+
+Date: 15 December 2016 
+ESMA/2016/1661 
+
+Responding to this paper  
+
+ESMA invites comments on all matters in this paper and in particular on the specific questions 
+summarised in Annex 1. Comments are most helpful if they: 
+
+ 
+
+respond to the question stated; 
+
+ 
+
+indicate the specific question to which the comment relates; 
+
+  contain a clear rationale; and 
+
+  describe any alternatives ESMA should consider. 
+
+ESMA will consider all comments received by 15 February 2017  
+
+All contributions should be submitted online at www.esma.europa.eu under the heading ‘Your 
+input - Consultations’.  
+
+Publication of responses 
+
+All contributions received will be published following the close of the consultation, unless you 
+request otherwise.  Please clearly and prominently indicate in your submission any part you 
+do  not  wish  to  be  publically  disclosed.  A  standard  confidentiality  statement  in  an  email 
+message will not be treated as a request for non-disclosure. A confidential response may be 
+requested from us in accordance with ESMA’s rules on access to documents. We may consult 
+you  if  we  receive  such  a  request.  Any  decision  we  make  not  to  disclose  the  response  is 
+reviewable by ESMA’s Board of Appeal and the European Ombudsman. 
+
+Data protection 
+
+Information on data protection can be found at www.esma.europa.eu under the heading Legal 
+Notice. 
+
+Who should read this paper 
+
+This  consultation  paper  may  be  specifically  of  interest  to  trade  repositories,  benchmark 
+administrators and entities subject to RTS 20 of MiFID II/ MiFIR.  
+
+1 
+
+ESMA REGULAR USE 
+
+ 
+
+ 
+
+ 
+
+Table of Contents 
+
+1  Executive Summary ....................................................................................................... 4 
+
+2  Review of the EMIR Technical Standards on data to be made publicly available............ 7 
+
+2.1  Background ............................................................................................................. 7 
+
+2.2 
+
+Trading activity on commodity derivatives under MiFID ........................................... 8 
+
+2.3  Benchmarks Regulation .......................................................................................... 9 
+
+2.4  Areas with proposed amendments to the RTS .......................................................10 
+
+3  Avoidance of  double counting of cleared transactions for the purposes of calculation of 
+aggregate market volumes ...................................................................................................13 
+
+3.1  ETDs ......................................................................................................................14 
+
+3.1.1 
+
+Scope of the data ............................................................................................14 
+
+3.1.2 
+
+Aggregation proposal ......................................................................................16 
+
+3.2  OTC and XOFF transactions ..................................................................................17 
+
+4  General aspects of data aggregation .............................................................................17 
+
+4.1 
+
+Frequency and timeliness of the publication of data ...............................................17 
+
+4.2  Operational standards for aggregation and comparison of public data ...................18 
+
+4.2.1 
+Scope  of  the  data  to  be  taken  into  account  for  the  purposes  of  general 
+aggregations at asset class level ...................................................................................18 
+
+4.2.2 
+
+Types of aggregations per venue of execution ................................................19 
+
+4.2.3 
+
+Types of quantitative aggregations ..................................................................20 
+
+4.2.4 
+
+Avoidance of double counting across TRs .......................................................20 
+
+4.2.5 
+
+Accessibility of public data...............................................................................21 
+
+4.2.6 
+
+Format and presentation of public data ...........................................................21 
+
+4.2.7 
+
+Conversion rates .............................................................................................22 
+
+4.2.8 
+
+Legacy trades..................................................................................................22 
+
+4.2.9 
+
+Publication of the aggregation methodology ....................................................22 
+
+5  Aggregation on commodity derivatives ..........................................................................23 
+
+5.1  Aggregation requirement ........................................................................................23 
+
+5.2  Commodity derivatives aggregation proposal .........................................................24 
+
+5.2.1 
+
+Scope of the data ............................................................................................24 
+
+5.2.2 
+
+Aggregations to be performed .........................................................................25 
+
+5.2.3 
+
+Frequency of publication .................................................................................26 
+
+2 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+6  Aggregation of derivatives for the purposes of measurement of the reference value of a 
+benchmark under Benchmarks Regulation ...........................................................................26 
+
+6.1  Aggregation requirements ......................................................................................26 
+
+6.2  Aggregation proposal for derivatives that reference  indexes .................................28 
+
+6.2.1 
+
+Scope of the data ............................................................................................28 
+
+6.2.2 
+
+Aggregations to be performed .........................................................................29 
+
+6.2.3 
+
+Frequency of publication .................................................................................33 
+
+7  Annexes ........................................................................................................................34 
+
+7.1  Annex I ...................................................................................................................34 
+
+7.2  Annex II ..................................................................................................................35 
+
+7.3  Annex III .................................................................................................................37 
+
+7.4  Annex IV ................................................................................................................48 
+
+ 
+
+ 
+
+ 
+
+3 
+
+ESMA REGULAR USE 
+
+1  Executive Summary 
+
+Reasons for publication 
+
+Article 81 of Regulation (EU) No 648/2012 of the European Parliament and of the Council of 
+4 July 2012 on OTC Derivatives, CCPs and Trade Repositories (EMIR) requires ESMA to 
+develop draft regulatory technical standards specifying the frequency and the details of the 
+information  to  be  made  available  to  the  relevant  authorities  and  the  information  to  be 
+published by trade repositories.  
+
+Public data has experienced several problems related to the comparison and aggregation 
+of  data  across  trade  repositories.  Therefore,  ESMA  is  setting  out  several  proposals  to 
+enhance  the  data  made  publicly  available  by  trade  repositories  and  to  increase  the 
+transparency to the public in general as well as allowing the publication of certain figures 
+required by EU regulations such as MiFID II and the Benchmarks Regulation. 
+
+Contents 
+
+This document presents the proposals related to the publication of data by trade repositories 
+and in particular for the avoidance of double counting of cleared derivatives, on the details 
+of aggregations for commodity derivatives and derivatives using benchmarks, as well as on 
+the general technical aspects of publication of aggregate data.  
+
+Next Steps 
+
+ESMA is consulting publicly on the proposed standards for aggregation of data to be made 
+publicly  available.  Following  the  finalisation  of  the  consultation  period  of  the  proposed 
+technical standards, ESMA will be preparing a final report to be submitted to the European 
+Commission for its endorsement. 
+
+ 
+
+ 
+
+ 
+
+4 
+
+ 
+
+ 
+
+Acronyms and definitions used 
+
+ESMA REGULAR USE 
+
+BMR 
+
+CM 
+
+CCP 
+
+CSD 
+
+CPMI 
+
+CPSS 
+
+ECB 
+
+EEA 
+
+EMIR 
+
+Benchmarks  Regulation  -  Regulation  (EU)  No  2016/1011  on 
+benchmarks 
+
+Clearing Member 
+
+Central Counterparty 
+
+Central Securities Depository 
+
+Committee on Payments and Market Infrastructures 
+
+Committee on Payment and Settlement Systems  
+
+European Central Bank 
+
+European Economic Area 
+
+European  Market  Infrastructures  Regulation  –  Regulation  (EU) 
+648/2012  of  the  European  Parliament  and  Council  on  OTC 
+derivatives, central counterparties and trade repositories  – also 
+referred to as “the Regulation” 
+
+ESMA 
+
+European Securities and Markets Authority 
+
+ETD 
+
+EU 
+
+FSB 
+
+Exchange-traded derivative 
+
+European Union 
+
+Financial Stability Board 
+
+IOSCO 
+
+International Organisation of Securities Commissions 
+
+ISIN 
+
+ITS 
+
+LEI 
+
+MIC 
+
+MiFID 
+
+MiFIR 
+
+International Securities Identification Number 
+
+Implementing Technical Standards 
+
+Legal entity identifier 
+
+Market identifier code 
+
+Markets in Financial Instruments Directive 2014/65/EU 
+
+Regulation (EU) No 600/2014 of the European Parliament and of 
+the  Council  on  markets  in  financial  instruments  and  amending 
+Regulation (EU) No 648/2012  
+
+NCA 
+
+National Competent Authority 
+
+5 
+
+ 
+
+ 
+
+OJ 
+
+OTC 
+
+Q&A 
+
+RTS 
+
+RTS 20 
+
+RTS 23  
+
+SFTR 
+
+ESMA REGULAR USE 
+
+The Official Journal of the European Union 
+
+Over-the-counter 
+
+Questions and Answers 
+
+Regulatory Technical Standards 
+
+Draft  RTS  under  MiFID  II  on  criteria  for  establishing  when  an 
+activity is to be considered ancillary to the main business 
+
+RTS under MIFID II/MiFIR on reference data  
+
+Regulation (EU) No 2015/2365 of the European Parliament and 
+of  the  Council  of  25  November  2015  on  transparency  of 
+securities  financing  transactions  and  of  reuse  and  amending 
+Regulation (EU) No 648/2012 
+
+SMSG 
+
+Securities and Markets Stakeholder Group 
+
+TR 
+
+UTI 
+
+XML 
+
+ 
+
+Trade repository 
+
+Unique Transaction Identifier 
+
+Extensible Mark-up Language 
+
+ 
+
+6 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+2  Review  of  the  EMIR  Technical  Standards  on  data  to  be 
+
+made publicly available 
+
+2.1  Background 
+
+1.  Article 81 of Regulation (EU) No 648/2012 of the European Parliament and of the Council 
+of 4 July 2012 on OTC derivatives, CCPs and trade repositories (EMIR) requires ESMA to 
+develop draft regulatory technical standards specifying the frequency and the details of the 
+information  to  be  made  available  to  the  relevant  authorities  and  the  information  to  be 
+published  as  well  as  operational  standards  required  in  order to  aggregate  and  compare 
+data across repositories and for the relevant authorities to have access to information as 
+necessary.  
+
+2.  ESMA  fulfilled  this  mandate  in  September  2012  and  submitted  those  drafts  to  the 
+Commission,  which  became  the  Commission  Delegated  Regulation  (EU)  No.  151/2013 
+(RTS, hereafter). 
+
+3.  The RTS consisted of a definition of the data (i) to be made publicly available on a weekly 
+basis by the trade repositories (TRs, hereunder), (ii) the access levels for EEA and third 
+country  authorities,  as  well  as  (iii)  a  brief  reference  to  the  use  of  communication 
+procedures, standards for messaging and reference data used at international level without 
+specifying or prescribing standards to be used.  
+
+4.  This  consultation  paper  focuses  on  the  aggregate  position  data  to  be  made  publicly 
+available  by  the  TRs  under  EMIR  and  specifies  the  relevant  operational  standards  to 
+compare and aggregate this type of data across TRs. 
+
+5.  At the time of drafting the RTS (2011-2012), there were still a number of discussions at 
+international  level  on  the  aggregation  of  data  across  TRs.  The  final  report  from  CPSS-
+IOSCO on “OTC derivatives data reporting and aggregation requirements” 1 was published 
+in January 2012, while the “FSB Feasibility Study on Aggregation of OTC Derivatives Trade 
+Repository Data”2 did not start until early 2014 and the publication of the final Study took 
+place only in September 2014. Therefore, ESMA decided to keep the wording of the RTS 
+sufficiently flexible to accommodate further developments of international standards. 
+
+6.  The standards for data to be made publicly available were an area where ESMA could not 
+build on lessons learnt. The practical implementation of EMIR reporting and the experience 
+gained so far has shown several shortcomings and limitations that need to be addressed 
+so that the data published by the trade repositories under EMIR can be better used by the 
+general public.  
+
+7.  Due to non-standard, sometimes insufficient tools and functionalities provided by TRs, the 
+public  needed  to  spend  considerable  time  accessing  the  websites  of  the  different  TRs, 
+
+                                                
+
+1   http://www.bis.org/cpmi/publ/d100.pdf  
+2   http://www.financialstabilityboard.org/wp-content/uploads/r_140919.pdf  
+
+7 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+downloading  files  in  TR-customised  formats  published  with  different  frequencies, 
+translating them into a common one, and finally trying to aggregate it across all the TRs. 
+These are all overly manual processes. As a result, the EMIR public data was difficult to 
+use and the transparency of derivatives towards the general public was not achieved.  
+
+8.  As  part  of  its  supervisory  actions,  ESMA  discussed  and  agreed  with  the  TRs  the 
+implementation  of  several  practical  aspects  to  overcome  some  of  the  aforementioned 
+issues and to increase the value for the public of the EMIR aggregated data. Following this 
+initiative, common templates were adopted and data started becoming more comparable. 
+
+9.  In  the  meantime,  several  other  EU  regulations  are  requiring  entities  to  assess  their 
+activities with regards to derivatives concluded in the EU. Three years after the start of the 
+reporting  obligation  the  TRs  have  gained  considerable  experience  with  regards  to 
+derivatives data and have demonstrated being able to put in place complex reporting and 
+data  processing  systems.  From  that  perspective,  and  taking  into  account  that  EMIR 
+reporting  comprises  both  exchange-trade  derivatives  and  OTC  derivatives,  ESMA 
+understands that the TRs are in a privileged position to provide the most comprehensive 
+derivatives  data  aggregation  in  the  EU.  Expanding  and  making  more  granular  the 
+information that TRs will need to publish appears necessary to make a better use of the 
+stream  of  data  reaching  TRs  and  to  provide  the  best  possible  aggregated  data that  EU 
+financial markets need for functioning under the current regulatory framework. 
+
+2.2  Trading activity on commodity derivatives under MiFID 
+
+10. Article 2 of draft RTS 20 under Directive 2014/65/EU3 (MIFID II, hereinafter) requires the 
+assessment  of  the  size  of  the  trading  activity  in  commodity  derivatives,  emission 
+allowances  and  derivatives  of  persons  performing  activities  under  MIFID  II  in  order  to 
+assess the application of certain exemptions. In that regard, ESMA sees additional benefits 
+from providing aggregation of the different types of commodities derivatives concluded in 
+the EU. 
+
+11. Article  2(1)(j)  of  MiFID  II  grants  persons  performing  MiFID  II  activities  in  commodity 
+derivatives, emission allowances and derivatives thereof an exemption if their activities are 
+ancillary to their main business. Article 2(4) of MiFID II requires such persons to compare 
+the  size  of  their  trading  activity  in  commodity  derivatives,  emission  allowances  and 
+derivatives thereof to the overall market trading activity in a particular asset class over a 
+certain period of time (the trading activity test).  
+
+12. The asset classes and the relevant thresholds per asset class have been further specified 
+by ESMA in draft RTS which are yet to be endorsed by the European Commission. The 
+relevant RTS by ESMA went through an opinion process in accordance with Article 10 of 
+Regulation  (EU)  1095/2010  where  the  trading  activity  test  has  not  been  subject  to  any 
+
+                                                
+
+3   http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0065&from=FR 
+
+8 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+objection  by  the  European  Commission  so  ESMA  considers  the  trading  activity  test  as 
+designed as stable.  
+
+13. Persons wanting to benefit from the MiFID II exemption in Article 2(1)(j) of MIFID therefore 
+have to execute a test where they compare their own trading to the total trading in the EU 
+market based on eight distinct asset classes. 
+
+2.3  Benchmarks Regulation 
+
+14. Regulation  (EU)  No  2016/1011  on  benchmarks  (BMR,  hereinafter)  requires  the 
+establishment of appropriate measurement for measuring the nominal amount of financial 
+instruments  other than  derivatives,  the  notional  amount  of derivatives  and  the  net  asset 
+value of investment funds for the purposes of assessing benchmarks under the thresholds 
+in Article 20(1) and Article 24(1)(a) of BMR. Depending on the nature of the benchmark the 
+assessment is performed either by the European Commission, by the relevant competent 
+authorities or by the administrators. 
+
+15. The European Commission proposed a draft Regulation on indexes used as benchmarks 
+in  financial  instruments  and  financial  contracts4 in  September  2013  in  the  wake  of  the 
+manipulation  of  various  benchmarks.  An  agreement  was  reached  with  the  European 
+Parliament  in  November  2015.  Regulation  (EU)  2016/1011  of  the  European  Parliament 
+and of the Council of 8 June 2016 on indexes used as benchmarks in financial instruments 
+and financial contracts or to measure the performance of investment funds and amending 
+Directives  2008/48/EC  and  2014/17/EU  and  Regulation  (EU)  No  596/2014,  (BMR, 
+hereinafter) was published on 29 June 2016. 
+
+16. Under Article 20(1) of BMR, the European Commission “shall adopt implementing acts in 
+accordance  with  the  examination  procedure  referred  to  in  Article  50(2)  to  establish  and 
+review  at  least  every  two  years  a  list  of  benchmarks  provided  by  administrators  located 
+within  the  Union  which  are  critical  benchmarks,  provided  that  one  of  the  following 
+conditions is fulfilled: the benchmark is used directly or indirectly within a combination of 
+benchmarks as a reference for financial instruments or financial contracts or for measuring 
+the performance of investment funds, having a total value of at least EUR 500 billion on 
+the basis of all the range of maturities or tenors of the benchmark, where applicable (…).” 
+
+17. Furthermore,  under  Article  20(6)  of  BMR  it  is  provided  that  the  Commission  shall  be 
+empowered to adopt delegated acts in accordance with Article 49 BMR in order to specify 
+how  the  nominal  amount  of  financial  instruments  other  than  derivatives,  the  notional 
+amount  of  derivatives  and  the  net  asset  value  of  investment  funds  are  to  be  assessed, 
+including  in  the  event  of  an  indirect  reference  to  a  benchmark  within  a  combination  of 
+benchmarks, in order to be compared with the thresholds referred to in Article 20(1) of BMR 
+and in point (a) of Article 24(1) of BMR. 
+
+                                                
+
+4   The  press 
+
+release  of 
+
+the  European  Commission  on 
+
+the  proposal 
+
+is  available  at 
+
+the 
+
+following  address: 
+
+http://europa.eu/rapid/press-release_IP-13-841_en.htm?locale=en  
+
+9 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+18. Article  24(1)(a)  of  BMR  provides  that  “a  benchmark  which  does  not  fulfil  any  of  the 
+conditions laid down in Article 20(1) is significant when it is used directly or indirectly within 
+a combination of benchmarks as a reference for financial instruments or financial contracts 
+or for measuring the performance of investments funds having a total average value of at 
+least EUR 50 billion on the basis of all the range of maturities or tenors of the benchmark, 
+where applicable, over a period of six months” 
+
+19. Under  Article  24(2)  of  BMR  the  European  Commission  shall  be  empowered  to  adopt 
+delegated acts in accordance with Article 49 in order to review the calculation method used 
+to determine the threshold referred to in point (a) of Article24 (1) of BMR “in the light of 
+market,  price  and  regulatory  developments  as  well  as  the  appropriateness  of  the 
+classification of benchmarks with a total value of financial instruments, financial contracts 
+or investment funds referencing them that is close to that threshold. Such review shall take 
+place at least every two years as from 1 January 2018. 
+
+20. Finally, it is provided that an administrator shall immediately notify its competent authority 
+when its significant benchmark falls below the threshold mentioned in point (a) of Article 
+24(1) of BMR. 
+
+21. On  11  February  2016,  ESMA  received  a  request  from  the  European  Commission  for 
+
+technical advice on possible delegated acts5 under the BMR.  
+
+22. In order to facilitate data aggregations and links between the different types of benchmarks 
+used, ESMA has included in its final report on the technical advice under Article 20(1) and 
+Article  24(1)(a)  of  BMR  a  recommendation  to  request  the  benchmark  administrators  to 
+obtain an ISIN for all their indexes. 
+
+23. However, co-legislators have not envisaged a specific mechanism to measure and publish 
+the  total  use  of  a  specific  benchmark.  Absent  this  publication,  it  would  be  difficult  if  not 
+impossible  to  conduct  the  measurement  of  the  conditions  mentioned  above.  ESMA 
+considers that TR regulated data constitutes the best alternative for these calculations. 
+
+2.4  Areas with proposed amendments to the RTS 
+
+24. While it was not an original objective of EMIR to provide granular aggregate position data 
+to  the  public,  ESMA  understands that  establishing  a  comprehensive framework  for  data 
+aggregation is essential to achieve the objectives for derivatives transparency set out by 
+the G20 in September 2009. While defining the data aggregations per class of derivative 
+to be performed, ESMA leverages on its experience with granular derivatives data and also 
+ensures that the details published would allow for the comparison and aggregation of data 
+across TRs.  
+
+                                                
+
+5 The  mandate  for  the  technical  advice  is  publicly  available:  http://ec.europa.eu/finance/securities/docs/benchmarks/160211-
+
+mandate-esma-request_en.pdf 
+
+10 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+25. Under  Article  2(6)  of  EMIR,  a  class  of  derivative  is  defined  as  “a  subset  of  derivatives 
+sharing common and essential characteristics including at least the relationship with the 
+underlying  asset,  the  type  of  underlying  asset,  and  currency  of  notional  amount.” 
+Furthermore, it is specified that “Derivatives belonging to the same class may have different 
+maturities.” In that respect, while drafting the initial requirements for data aggregation under 
+Article 1 of RTS, ESMA referred only to the lowest level of granularity, i.e. the asset class 
+of  a  derivatives  without  further  specifying  the  rest  of  elements.  In  the  proposals  in  this 
+consultation  paper,  ESMA  is  further  specifying  those  elements  for  derivatives  in  the 
+commodities asset class and for derivatives that use indexes. 
+
+26. The  definitions  on  data  access  that  are  used  in  EMIR  are  fully  consistent  with  those 
+included in the Final report on “Authorities access to trade repository data“ issued in August 
+2013 by CPSS-IOSCO6. In that regard, aggregate positions refer to both gross and netted 
+data attributable to all participants that may be summed using various categories, including 
+by  product,  currency,  region,  underlying,  etc.  that  are  not  specific  to  any  uniquely 
+identifiable participant or transaction.   
+
+27. Furthermore,  as  mentioned  in  sections  2.2  and  2.3,  there  are  two  EU  regulations,  in 
+particular MiFID II and BMR, which require the use of EU aggregate derivatives data for 
+different  purposes.  In  one  case,  MiFID  II  provides  that  market  participants  assess  their 
+trading  volumes  in  certain  classes  of  commodity  derivatives.  In  the  other  case,  BMR 
+establishes that index providers assess the significance of their respective indexes vis-à-
+vis  a  threshold  established  in  the  BMR.  In the  absence  of TR  data  these  entities  would 
+need  to  run  complex  processes  to  compile  the  data  across  all  the  different  venues  and 
+post-trade providers. Clearly this process would not be error-free and it is highly possible 
+that there will be different figures obtained by each entity. This would run contrary to the 
+objectives of the regulations and would create an unlevelled playing field.  
+
+28. From  the  perspective  of  the  supervisory  authorities  such  situation  would  significantly 
+hamper  the  fulfilment  of  their  duties.  Should  the  authorities  be  required  to  recreate  the 
+aggregations from the derivatives data to which they have access, it will be impossible to 
+compare  the  results,  since  every  authority  has  different  access  levels  based  on  its 
+responsibilities and mandates. In case it would be for ESMA to perform these aggregations, 
+such task would be overly burdensome and, most importantly, ESMA would lack the direct 
+contact  with  the  reporting  entities  should  any  amendments  to  the  underlying  data  be 
+needed. TRs are therefore a natural choice in this regard as they play a pivotal role in the 
+EU  derivatives  reporting  regime,  they  already  serve  a  public  purpose  of  providing 
+derivatives  data  to  competent  authorities  and  being  a  central  market  infrastructure 
+established to improve the transparency of derivatives markets, they are naturally placed 
+to play this role. 
+
+29. This being said, ESMA acknowledges that there is still some work to be done with regards 
+to  the  quality  of  the  data  reported  to  TRs.  Albeit  the  extensive  guidance  on  reporting 
+provided by ESMA and the definition of strict data validation rules, the analysis of the data 
+
+                                                
+
+6 http://www.iosco.org/library/pubdocs/pdf/IOSCOPD417.pdf  
+
+11 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+shows that there are still certain areas (i) where the quality of the data reported needs to 
+be improved or (ii) where the reporting practices by market participants need to become 
+more  consistent.  Furthermore,  ESMA  also  notes  the  dynamic  nature  of  the  rules  on 
+derivatives  reporting  which  is  determined,  among  others,  by  the  appearance  of  new 
+derivative  products,  the breadth  of  the  existing  ones, the granularity  of the  details to  be 
+reported and by the specificities of the requirements set out by the authorities7. The rules 
+on aggregate position data leverage on the rules on reporting and by default might need to 
+be updated whenever necessary to ensure alignment with the reporting rules. 
+
+30. ESMA  is  aware  that  the  quality  of  the  aggregate  position  data  published  by  the  TRs  is 
+dependent  on  the  quality  of  the  data  reported,  however  ESMA  is  also  certain  that  the 
+publication of aggregate data by TRs would allow to address additional data quality issues 
+which are only seen at more aggregate level, namely over and under-reporting, incorrect 
+identification of the side of the trade or erroneous classification of derivatives, etc. 
+
+31. Last, but not least, an enhanced public data provided by the TRs shows the benefits of the 
+EMIR  reporting  framework  where  private  market  infrastructures  were  tasked  to  become 
+repositories of transactions and to give access to data to the  authorities, but also to the 
+general public. The key points in choosing trade repositories instead of public bodies were 
+the inherent flexibility of private entities, the potential scalability of their systems and the 
+relevant know-how in data processing.  
+
+32. In  the  Final  report  on  Draft  technical  standards  on  access  to  data  and  aggregation  and 
+comparison of data across TR under Article 81 of EMIR8, ESMA defined the operational 
+standards  for  aggregation  and  comparison  of  transaction  data  across  TRs.  In  order  to 
+ensure that the end users are able to aggregate and compare the aggregate position data 
+published by the TRs, ESMA is also defining in this consultation paper the general rules 
+for making the data available and is establishing the specific rules to perform aggregations 
+at the level of the individual TRs.  
+
+33. In order to address these aspects, stemming from the empowerment under Article 81(5) of 
+EMIR  which  requires  ESMA  to  draft  technical  standards  specifying  the  frequency  and 
+details of public data, ESMA has drafted the amendments to the RTS on data to be made 
+publicly available by TRs to define:  
+
+a.  the frequency and timeliness of publication 
+
+b.  the general technical aspects of aggregation for the purposes of publication 
+
+c. 
+
+the details of aggregations for the purposes of benchmarks’ thresholds  
+
+d.  the details of aggregations for the purposes of trading size of commodity derivatives 
+
+                                                
+
+7   At this stage, CPMI-IOSCO has three work streams on data harmonisation, namely UTI, UPI and critical data elements, which 
+
+would need to be incorporated to the EU reporting rules when finalised 
+
+8   https://www.esma.europa.eu/press-news/esma-news/esma-issues-amended-rules-access-aggregation-and-comparison-
+
+data-across-trade  
+
+12 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+34. Finally,  ESMA  will  be  considering  also  the  feedback  received  on  the  consultation  on 
+
+publication of aggregate data under Regulation 2015/23659. 
+
+3  Avoidance of double counting of cleared transactions for 
+the purposes of calculation of aggregate market volumes 
+
+35. The  reporting  of  cleared  transaction  is  provided  in  Article  2  of  Commission  Delegated 
+Regulation 148/201310 (current RTS on reporting) and it is further clarified in several ESMA 
+EMIR Q&As11. Moreover, the reporting of exchange-trade derivatives (ETDs) is addressed 
+in  a  specific  section,  where  two  possible  scenarios  are  depicted.  While  essential  to 
+determine  the  risk  exposures  between  the  different  entities  in  the  clearing  chain,  the 
+reporting  logic  results  in  additional  numbers  of  transactions  which,  for  the  purposes  of 
+market volume and size, need to be addressed. 
+
+36. Similarly, in the case of the OTC transactions, the reporting of the clearing by the CCPs,  
+while allowing for swift identification of exposures, practically duplicates the actual volume 
+of transactions. 
+
+37. ESMA proposed amendments to the EMIR reporting rules on ETDs which are included in 
+paragraph 50 of the Final report on Review of the Regulatory and Implementing Technical 
+Standards on reporting under Article 9 of EMIR12 (Amended TS on reporting). In particular, 
+when the transaction is concluded on a venue and immediately cleared, it is proposed that 
+it is reported only in its cleared form. While this is the general case, there are potentially 
+some instances where the clearing might not take place immediately.  
+
+38. The current reporting logic under EMIR does not allow to accurately distinguish in all cases 
+between the trades where the CM is clearing for its clients from those where it is clearing 
+trades concluded on its own account. 
+
+39. To ensure high quality data and to address risks of misreporting or potential omission of 
+information, ESMA has included in its ESMA EMIR Q&As guidance that when one of the 
+counterparties to a derivatives contract has several roles in the derivatives transaction, the 
+identification of that entity should be included in each of the relevant fields – “Broker ID”, 
+“Beneficiary ID”, “Report submitting entity ID”, “Clearing member ID”, “CCP ID”.  
+
+40. Last, but not least, the accuracy and correctness of the aggregation performed by the TRs 
+is dependent on (i) how the TRs have implemented the ESMA’s requirements and (ii) how 
+the counterparties have reported the data. In case one of those is not accurate enough, 
+the actual number would neither be. Particularly in the case of the commodity derivatives, 
+
+                                                
+
+9    https://www.esma.europa.eu/press-news/consultations/consultation-draft-rts-and-its-under-sftr-and-amendments-related-
+
+emir-rts  
+
+10   COMMISSION  DELEGATED  REGULATION  (EU)  No  148/2013  of  19  December  2012  supplementing  Regulation  (EU)  No 
+648/2012 of the European Parliament and of the Council on OTC derivatives, central counterparties and trade repositories 
+with regard to regulatory technical standards on the minimum details of the data to be reported to trade repositories, L52. OJ 
+23.2.2013, p.1 
+
+11   https://www.esma.europa.eu/sites/default/files/library/2016-1176_qa_xix_emir.pdf  
+12   https://www.esma.europa.eu/sites/default/files/library/2015/11/2015-esma-1645_-_final_report_emir_article_9_rts_its.pdf  
+
+13 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+in order to allow the TRs to perform consistent and comparable aggregations, it is of utmost 
+importance  that  the  counterparties  populate  correctly  and  only  with  monetary  value  the 
+field “Notional”. 
+
+3.1  ETDs 
+
+3.1.1  Scope of the data 
+
+3.1.1.1  Determination of Clearing-member-to-client volumes 
+
+41. Usually  ETD  are  cleared  shortly  after  their  conclusion,  hence  under  the  new  TS  on 
+reporting  it  is  proposed  that  ETDs  are  reported  only  in  their  cleared  form.  There  are 
+potentially some instances where the clearing might not take place immediately. It remains 
+unclear  whether  trades  in  the  scope  of  EMIR  concluded  on  venues  outside  the  EU  are 
+reported in a consistent manner with the ones concluded on EU venues.   
+
+42. To avoid missing some trades, ESMA considers that given the central role of the CM in 
+ETDs, only the transaction where the CM participates should be taken into account. ESMA 
+is also aware that at the level of each CM, at least three separate types of accounts, e.g. 
+own  trading,  omnibus  client,  segregated  client,  need  to  be kept  in  order to  allow  for  the 
+correct operational and regulatory treatment of risks and positions. Therefore, the netting 
+at  the  level  of  CCP  is  carried  out  per  each  of  the  separate  accounts  of  the  CM.  The 
+derivatives trades concluded by the CM on own account may face the CCP directly or may 
+be also versus one of its clients.  
+
+43. To that  extent,  the  transactions  concluded  by  the  CM  with  counterparties  which  are  not 
+CCPs, i.e. with the CM’s clients, would need to be taken fully for the purposes of calculation 
+of the trading  activity. Furthermore, ESMA would propose that when the TRs aggregate 
+ETDs for the purposes of market activity, they include the trades where (a) the field “Venue 
+of execution” is not populated with “XXXX” or “XOFF”, (b) where neither counterparty is a 
+CCP and (c) where (i) the reporting counterparty is identified as a clearing member or (ii) 
+either of the counterparties is also identified as CM for the transaction. Given that in some 
+of  the  cases,  the  CM  might  not  be  reporting,  because  it  is  not  subject  to  the  reporting 
+obligation under Article 9, ESMA is still exploring which of the two alternatives would give 
+more accurate final result. The final requirement on aggregation would take into account 
+the feedback received on this aspect. 
+
+ For the purpose of more accurate aggregation of ETD volumes between the CM and 
+its clients should only the trades where the CM is reporting counterparty be taken 
+into  account  or  should  all  trades  where  CM  is  on  either  side  of  the  ETDs  be 
+considered? Please elaborate. 
+
+14 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+3.1.1.2  Determination of Clearing-member-to-CCP volumes 
+
+44. Furthermore,  it  still  remains  unclear  how  to  add  to  the  trades  descried  in  the  previous 
+section the ones that are directly concluded between the CM and the CCP and which are 
+not stemming from potentially netted positions of the CM clients.   
+
+45. Option  1  considered  by  ESMA  with  regards  to  aggregation  of  ETDs  is  to  use  the  field 
+“Transaction  reference  number”,  which  is  labelled  “Report  tracking  number”  in  the 
+amended TS on reporting. While this would have been ESMA’s preferred option, given that 
+the field was originally meant to ensure the uniqueness of ETD executions independently 
+of the risk exposures, ESMA is aware that this field is currently not populated in a consistent 
+way.  Any  potential  aggregation  based  on  this  field  might  produce  results  which  are  not 
+accurate.   
+
+46. Option  2  would  be  to  use  “Beneficiary”  field  instead  of  the  field  “Transaction  reference 
+number” field. In those cases, where there are trades between the CM and the CCP, the 
+CM would need to identify whether it is the beneficiary or whether the beneficiaries are its 
+clients. Given that the netting between own trades and client trades is not possible under 
+EMIR, the ETD trades relevant for the purposes of aggregation would be clearly identified.  
+
+47. The “Beneficiary” field  is  currently  also  reported  in  a  different  manner.  However, for  the 
+purposes of achieving consistency, ESMA understands that Option 2  which uses a field 
+which  is  populated  with  a  closed  list  of  values  such  as  LEIs,  would  allow  achieving  the 
+objectives of identifying the trades between the CM and the CCP more easily than through 
+Option  1  which  uses  a  field  which  is  populated  with  different  number  for  each  single 
+execution on a venue.      
+
+48. For the reasons above, Option 1 is considered burdensome at this stage, although ESMA 
+would reassess this situation as the EMIR reporting reaches more mature stage. Therefore, 
+at this stage, ESMA understands that only option 2 is practically achievable. Any feedback 
+to this consultation paper will be considered for the purposes of ensuring consistent ESMA 
+guidance on derivatives reporting.  
+
+ For the purpose of more accurate aggregation of ETD volumes between the CM and 
+the CCP, is the “Beneficiary ID” the appropriate field or the “Transaction reference 
+number/Report tracking number” field should be used? Do you envisage any other 
+alternative at this stage? What are the potential costs and benefits of implementing 
+any of the proposed options? Please elaborate on the reasons for your response. 
+
+ In general, do you agree with the approach outlined in section 3.1.1 to determine the 
+scope  of  the  data  subject  to  aggregation  for  the  purpose  of  calculating  market 
+volumes? Please elaborate on the reasons for your response. 
+
+15 
+
+ 
+
+ 
+
+3.1.2  Aggregation proposal13 
+
+ESMA REGULAR USE 
+
+49. The  current  rules  on  reporting  require  the  counterparties  to  report  their  new  derivatives 
+trades, ETD executions included, with action type “N”. The logic is explained in detail in 
+ESMA  EMIR  Q&A  17,  as  well  as  in  the  EMIR  ETD  Q&As.  Under  the  amended  TS  on 
+reporting, the counterparties would be allowed to report their original executions with only 
+one  action  type  –  action  type  “P”.  The  subsequent  reporting  of  CCP  cleared  positions 
+remains unaffected. 
+
+50. Given  that for  the  purposes  of assessing market  activity,  what  is  important  is the  actual 
+transaction volume and not where the risks stand, it is essential that the TRs include all the 
+underlying transactions between CM and its clients that are reported with action type “N” 
+under the current rules on reporting or with action type “P” and where the field “Level” is 
+populated with “transaction” under the amended TS on reporting. 
+
+51. The ETDs identified as “Position” should be excluded from the calculations of aggregate 
+
+positions that refer to market volumes.  
+
+52. The identification of the ETDs between CCP and CM would depend on the option taken 
+with regards to the identification of trades where the CM is concluding on its own account, 
+which are discussed in paragraphs 45-48.  
+
+53. For  the  purposes  of  assessing  ETD  volumes,  after  classifying  the  trades  among  the 
+categories defined in paragraph 76 and performing the necessary adjustments detailed in 
+that paragraph, the TRs would need to divide by 2 the relevant aggregate positions. This 
+mechanism would cater for the actual duplication of the reporting of a single execution on 
+the  derivatives  venue  which  is  transformed  into  simultaneous  buy  and  sell  transactions 
+versus  the  CCP.  As mentioned  in  paragraph  35,  this  logic  was  introduced  to  be  able  to 
+capture the risks in the clearing chain.  
+
+ For the purposes of more accurate aggregation of ETD market volume, do you agree 
+with the proposed approach to take into account only the original ETD executions, 
+i.e. those that are reported under the current RTS on reporting with action types “N” 
+which would be reported under the amended TS on reporting with action type “P”? 
+Please elaborate on the reasons for your response. 
+
+ For the purposes of calculating ETD market volume, do you agree with the proposed 
+approach to divide by 2 the resulting aggregations in order to cater for the inherent 
+duplication  of  trading  volume  of  ETDs?  Please  elaborate  on  the  reasons  for  your 
+response. 
+
+                                                
+
+13Among others, the aggregation proposal would rely on the correct reporting by counterparties of the details of the derivatives 
+
+16 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+3.2  OTC and XOFF transactions  
+
+54. Differently to the ETDs, where the actual counterparties of the derivative are not in contact 
+with  each  other,  in  the  case  of  the  OTC  derivatives  there  is  usually  an  original  bilateral 
+transaction  which  is  subsequently  sent  for  clearing.  Hence,  in  the  case  of  the  OTC 
+transactions it is expected that by taking only the original bilateral trades, the TRs would 
+be able to accurately calculate the volume of market activity. 
+
+55. This can be done by including in the aggregations only the non-cleared trades, i.e. those 
+where the field “Venue of execution” is populated with “XXXX” and where the field “Cleared” 
+is populated with “No”.  
+
+56. ESMA understands that the derivatives where the field “Venue of execution” is populated 
+with XOFF will work in similar way as the OTC trades, with the only practical difference that 
+the XOFF would be expected to be cleared in all cases. Therefore, the TRs should include 
+in  the  aggregations  only  the  pre-cleared  trades,  i.e.  those  where  the  field  “Venue  of 
+execution” is populated with “XOFF” and where the field “Cleared” is populated with “No” 
+
+57. To avoid double counting, only the records with field “Action type“ populated with “New” 
+
+should be included. 
+
+ For the purpose of aggregating more accurately OTC derivatives volume of market 
+activity,  do  you  agree  with  the  proposed  approach  to  take  into  account  only  the 
+original bilateral OTC and XOFF trades, i.e. those that are reported with action type 
+“N”? Please elaborate on the reasons for your response. 
+
+ Do you consider that the approaches outlined in sections 3.1 and 3.2 should be taken 
+into  account  for  the  purposes  of  calculating  also  total  volumes  of  reported 
+transactions? Please elaborate on the reasons for your response. 
+
+4  General aspects of data aggregation 
+
+4.1  Frequency and timeliness of the publication of data 
+
+58. The frequency of publication of data is one of the aspects where harmonisation is required. 
+At the start of the reporting obligation under EMIR, some TRs published data on weekly 
+basis, some others on a daily basis. This led to non-comparable figures.  
+
+59. In order to overcome this hurdle in data aggregation, ESMA proposes the publication by 
+
+TRs of aggregate data on a weekly basis. 
+
+60. Each TR should publish data aggregated in accordance with the criteria set out in section 
+4.2  by  Tuesday  noon.  The  data  should  take  into  account  all  derivatives  reported  as  of 
+23:59:59 UTC on the previous Friday. For the purposes of weekly reporting aggregates, 
+the  data  should  include all  derivatives  trades  reported  between  Saturday  00:00:00  UTC 
+
+17 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+and  Friday  23:59:59  UTC. When  providing  aggregates  on  the  outstanding trades,  those 
+would be the ones that remain outstanding as of Friday 23:59:59 UTC. 
+
+ Do  you  agree  with  the  proposed  cut-off  and  publication  times?  If  not,  what  other 
+aspects need to be considered? Please elaborate. 
+
+4.2  Operational standards for aggregation and comparison of public 
+
+data 
+
+4.2.1  Scope  of  the  data  to  be  taken  into  account  for  the  purposes  of  general 
+
+aggregations at asset class level 
+
+61. When  performing  the  general  data  aggregations,  the  TRs  should  take  into  account  all 
+derivatives reported to them under Article 9 EMIR. In particular, the TRs should include the 
+derivatives that are reported at position level. For that purpose, each TRs should ensure 
+that when performing data aggregations, it does not count twice the derivatives trades and 
+the subsequently reported cleared positions. However, when TRs are required to perform 
+specific  aggregations  at class  of  derivatives  level,  as those  outlined  in  sections  5.2  and 
+6.2.2, the TRs should take due account of the specificities of the aggregations for those 
+trades. 
+
+62. TRs should provide aggregate data per asset class for trades reported in the previous week 
+
+and for outstanding trades as of the relevant cut-off time defined.  
+
+63. In addition, ESMA expects that the TRs include in their internal procedures a reference to 
+a process which allows them to correct in timely manner any mistakes on the aggregate 
+position data that are being detected.   
+
+ Are there any further specific additional conditions that need to be included? Please 
+elaborate on the reasons for your response.  
+
+64. The TR should strive to ensure that the data published is of sufficient quality to allow for 
+meaningful aggregations across TRs. As part of the obligations to ensure accuracy of data 
+and compliance with the reporting requirements under Article 19 of RTS 150/2013, a TR 
+should require the reporting counterparties to amend data which is apparently wrong.  
+
+65. For instance, the TRs could put in place soft checks for identifying outliers. The soft checks 
+could be calibrated for specific products, currencies, etc. Standard deviations on normal 
+and log-normal distributions could be used. Given the breadth of derivatives, ESMA notes 
+that identifying outliers is not straight-forward, hence ESMA would welcome any specific 
+feedback on this aspect.  
+
+66. In addition, ESMA understands that it is important that the TRs ensure that when outliers 
+are removed from the aggregate position data, this is clearly represented. There are two 
+potential alternatives. On the one hand, the TRs could publish two different aggregations 
+–  one  with  removed  outliers (cleansed  data  aggregation)  and  another one  without  them 
+
+18 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+(raw  data  aggregation).  Alternatively,  the  TRs  could  publish  only  cleansed  data 
+aggregation. 
+
+  Further to products and currencies, what other data elements need to be taken 
+into  account  to  correctly  identify  outliers  from  the  aggregate  position  data?  How 
+should the outliers be treated – not at all included in data aggregations or included 
+in a raw data aggregation, but removed from a cleansed one? Please elaborate on 
+the reasons for your response. 
+
+67. ESMA is also willing to explore to what extent the reconciliation status of derivatives could 
+be  taken  into  account.  ESMA’s  preferred  approach  would  be  to  include  only  reconciled 
+data  in  the  aggregated  positions  calculated  under  Article  81(5)  of  EMIR.  ESMA 
+understands that this would increase the quality and the reliability of public data.  
+
+68. However, ESMA is concerned that the current level of data quality and the high number of 
+non-reconciled transaction (also linked to UTI issues) might not allow for the publication of 
+significant amount of data reported by the counterparties. From that perspective,  ESMA 
+considers to what extent the reconciled and the non-reconciled trades should be provided 
+in separate aggregations. 
+
+  Should the reconciliation status be taken into account? Should only reconciled 
+
+trades be included? Please elaborate.  
+
+4.2.2  Types of aggregations per venue of execution 
+
+69. When  performing  aggregations,  the  TRs  should  aggregate  separately  the  derivatives 
+taking into account the venue where those are concluded. The practice has showed that 
+aggregating OTC and ETD trades as well as exchange traded and traded off exchange 
+derivatives has little value from the perspective of a public user.  
+
+70. OTC trades are those for which the Common data field 10 is populated with XXXX and 
+XOFF refers to trades on listed derivatives which are traded off-exchange. ETD trades are 
+those for which Common data field 10 is populated with a MIC code as per ISO 10383. 
+Those MIC that are included in the MIFID Database and pertaining to EEA trading venues 
+should be included in the “EEA Venue” aggregation. The rest of MICs should be included 
+in the “non-EEA Venue” aggregation.  
+
+71. In that respect and in order to allow for sufficiently granular data, ESMA proposes that the 
+TRs  publish  data  classifying  the  trades  based  on  the  common  data  field  ”Venue  of 
+execution” as follows:  
+
+a.  Reports where the field “Venue of execution” is populated with “XXXX”, classified 
+
+as OTC 
+
+b.  Reports where the field “Venue of execution” is populated with “XOFF”, classified 
+
+as XOFF 
+
+19 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+c.  Reports  where  the  field  “Venue  of  execution”  is  populated  with  MIC  code,  in 
+accordance with ISO 10383, pertaining to a venue located in the Union, classified 
+as EEA MIC 
+
+d.  Reports  where  the  field  “Venue  of  execution”  is  populated  with  MIC  code,  in 
+accordance  with  ISO  10383,  pertaining  to  a  venue  located  outside  the  Union, 
+classified as non-EEA MIC 
+
+  Do you agree with the suggested aggregation per type of “Venue of execution”? 
+
+4.2.3  Types of quantitative aggregations 
+
+72. The aggregate data to be provided includes the following types of aggregation: 
+
+a.  By  notional,  by  aggregating  the  absolute  value  reported  in  common  data  field  
+
+“Notional”14  
+
+b.  By value, by aggregating the absolute value of the amount reported in counterparty 
+data field “Value of the contract”. In case both counterparties have reported to the 
+same TR, the TR should take only the value reported by the seller of the derivative. 
+
+c.  By number of contracts, by  aggregating the value reported in common data field 
+“Quantity”, except in the case of spreadbets, where the quantity should be taken as 
+equal to 1. 
+
+d.  By  number  of  transactions,  by  aggregating  the  unique  transactions  between  two 
+
+counterparties.   
+
+73. Assuming that the reporting counterparties have reported the data on their derivatives and 
+CCP  cleared  positions  as  per  the  guidance  included  in  ESMA  EMIR  Q&A  41,  the  TRs 
+would simply need to add the relevant notional amounts reported.  
+
+  What other aggregations could be provided? What additional aspects should be 
+
+taken into account? Please elaborate. 
+
+4.2.4  Avoidance of double counting across TRs 
+
+74. Furthermore, to avoid the possible double counting of derivatives across TRs, TRs should 
+provide  separate  aggregation  per  derivatives  where  (i)  both  counterparties  report  to the 
+same TR, i.e. Dual-sided trades, (ii) only one counterparty reports to the TR and the other 
+counterparty also has reporting obligation under EMIR, i.e. single-sided EEA and (iii) only 
+one counterparty reports to the TR and the other has no reporting obligation under EMIR, 
+i.e. single-sided non-EEA. 
+
+                                                
+
+14 The counterparties should report the data in accordance with the guidance provided in ESMA EMIR Q&A 41.  
+
+20 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+75. ESMA considers that given that most of the cleared trades are also reported twice, it might 
+be  useful to  include  as additional  more granular  level  aggregation  between  cleared  and 
+non-cleared derivatives.  
+
+76. The actual categories would be: 
+
+a.  Dual-sided cleared 
+
+b.  Dual sided non-cleared 
+
+c.  Single-sided EEA cleared 
+
+d.  Single-sided EEA non-cleared 
+
+e.  Single-sided non-EEA cleared 
+
+f.  Single-sided non-EEA non-cleared 
+
+77. The quantitative aggregates for all dual-sided trades should be calculated as described in 
+paragraphs 72 and 73 and then should be halved to show the actual aggregate per unique 
+UTI.  
+
+78. The  aggregates  for  the  different  types  of  single-sided  trades  should  be  performed  as 
+
+defined in paragraphs 72 and 73. 
+
+  Do you agree with the suggested categories? If not, what other aspects should 
+
+be taken into account? Please elaborate on the reasons for your response. 
+
+4.2.5  Accessibility of public data 
+
+79. The accessibility of data should be without restrictions or conditions and downloadable or 
+at least enabled to copy. ESMA understands that the data should be available for the public 
+for at least 104 weeks. This would allow the relevant users to have access to aggregate 
+information for the last 2 years. 
+
+  Should  ESMA  establish  a  longer  period  of  time  for  keeping  publicly  available 
+aggregates?  What  are  the  costs  and  benefits  of  a  longer  availability?  Please 
+elaborate. 
+
+4.2.6  Format and presentation of public data 
+
+80. The  form  in  which  public  data  is  reported  so  far  by  TRs  is  presented  in  pivoted  tables. 
+ESMA considers that for the purpose of facilitating the usage for the public a tabular form 
+of report may be more convenient for the purpose of aggregating data from different TRs. 
+
+81. Given  the  wider  target  public,  ESMA  considers  that  it  is  not  necessary  to  include  a 
+
+requirement for publication in xml schema defined in accordance with ISO 20022.  
+
+21 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+  Should the data made published by the TRs be in pivoted table form or in tabular 
+
+form? What are the potential costs and benefits of each alternative?  
+
+4.2.7  Conversion rates 
+
+82. The  public  aggregate  reports  shall  be  presented  in  Euros.  For  the  purpose  of  currency 
+conversion, the relevant exchange rates published by the ECB as of the reference date of 
+the provided figures (i.e. Friday) should be used. The exchange rate should be used as 
+published, taking into account all the digits after the decimal mark.  
+
+4.2.8  Legacy trades 
+
+83. Some of the trades which are part of aggregations were reported prior to the establishment 
+of harmonised data validations and the entry into force of the amended EMIR RTS and ITS 
+on reporting. Therefore, it is possible that for some of those trades a TR might not be able 
+to accurately classify or even aggregate them. 
+
+84. While  finalising  these  standards,  ESMA  proposes  to  take  into  account  the  relevant 
+guidance provided with regards to the reporting of modifications to trades reported prior to 
+the entry into force of the amended EMIR RTS on reporting.  
+
+85. ESMA understands that the TRs should provide the aggregate data based on the best use 
+that they can make of the data reported to them. In case for some of the aggregations, 
+particularly those referring to outstanding trades, it results impossible for a TR to classify 
+certain reports, then those should be labelled as “Other”. 
+
+  Do you agree with the proposed treatment of legacy trades? Please elaboarate 
+
+on the reasons for your response. 
+
+4.2.9  Publication of the aggregation methodology 
+
+86. The methodology for calculation should be provided to the public together with the figures. 
+
+  What other aspects should be taken into account for the purposes of publication 
+
+of data? Please elaborate. 
+
+ 
+
+ 
+
+ 
+
+22 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+5  Aggregation on commodity derivatives 
+
+5.1  Aggregation requirement 
+
+87. In order to apply the RTS on ancillary under MiFID II, as explained in section 2.2, market 
+participants,  NCAs  and ESMA  would  need  to know  the  market  size  in terms  of  notional 
+value traded in the EU, including both on venue and OTC trading, for each of the classes 
+of  commodity  derivatives  mentioned  in  RTS  20.  Given  the  granular  and  comprehensive 
+derivatives  data  that  TRs  collect  and  their  specialization  on  data  management  and 
+processing, they are best placed to publish statistics on the total trading executed per each 
+class of commodity derivatives. NCAs would not have access to the necessary information 
+to publish market sizes at the EU level and any other alternative to collect and aggregate 
+this information would create an unnecessary burden and a duplication of costs. 
+
+88. Article 2(1) of the draft RTS 20 establishes thresholds for the assessment of trading activity 
+
+on the following classes of commodity derivatives: 
+
+a.   metals;  
+
+b.  oil and oil products; 
+
+c.  coal; 
+
+d.  gas; 
+
+e.  power;  
+
+f.  agricultural products;   
+
+g.  other commodities, including freight and commodities referred to in Section C 10 of 
+
+Annex I to Directive 2014/65/EU;  
+
+h.  emission allowances or derivatives thereof. 
+
+89. It is further stated that “the overall market trading activity in each of the asset classes shall 
+be calculated by aggregating the gross notional value of all contracts that are not traded 
+on a trading venue within the relevant asset class to which any person located in a Member 
+State is a party and of any other contract within that asset class that is traded on a trading 
+venue located in a Member State.” 
+
+90. Finally, the calculation of the size of the trading activities shall be undertaken annually on 
+the  basis  of  a  simple  average  of  the  trading  activities  carried  out  in  the  three  annual 
+calculation periods preceding the date of calculation. The calculation of the size of trading 
+activities and capital shall commence with trading activities carried out as of 1 July 2016. 
+The calculation period starts on 1 July of a given year and ends on 30 June in the following 
+year. 
+
+23 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+5.2  Commodity derivatives aggregation proposal 
+
+91. The  proposal  in  this  Consultation  Paper  requires  trade  repositories  to  aggregate  and 
+publish aggregate position data for eight classes of commodity derivatives to enable any 
+person wanting to benefit from the MiFID II exemption to identify the total market size from 
+the  publications  of  the  various  trade  repositories  and  to  consequently  perform  the 
+calculations of their own trading size against those total market sizes to determine whether 
+they are in breach of any of the thresholds set in the draft RTS 20. 
+
+92. ESMA  notes  that  the  market  size  aggregate  produced  by  TRs  would  exclude  all  those 
+trades where two non-EU counterparties conclude a commodity derivative trade in the EU. 
+Nevertheless,  at  this  stage, the  EMIR  aggregations  are  considered  as the  most reliable 
+data on overall market size available.  
+
+5.2.1  Scope of the data 
+
+93. The TRs should include in this aggregation only records on commodity derivatives. Under 
+the  current  TS  on  reporting,  the  commodity  derivatives  are  identified  either  with  CO  in 
+common data field Product ID 1 in the case of OTC derivatives or with CFI codes (O**T** 
+or FC****) for ETD. Under the amended TS on reporting the commodity derivatives would 
+be reported with value “Commodity” in the common data field “Asset class”.  
+
+94. The relevant classes of commodity derivatives are defined as follows: 
+
+a.  metals – “commodity base” field reported as ‘ME’. 
+
+b.  oil products – “commodity details” reported with ‘OI’ 
+
+c.  coal – “commodity details” reported with ‘CO’ 
+
+d.  gas – “commodity details” reported with ‘NG’ 
+
+e.  power – “commodity details” reported with ‘EL’ or ‘IE’ 
+
+f.  agricultural products – “commodity base” reported with ‘AG’ 
+
+g.  other commodities including freight and C10 – “commodity base” reported with ‘FR’ 
+
+or ‘IN’ or ‘EX’ or ‘OT’ or “commodity details” reported with ‘WE’ 
+
+h.  derivatives on emission allowances – “commodity details” reported with ‘EM’. 
+
+95. To avoid double counting, the TRs should include the records that correspond to the criteria 
+
+defined in sections 3.1 and 3.2 of this Consultation Paper. 
+
+96. Given  they  may  not  be  representative  of  actual  trading  activity,  ESMA  has  decided,  on 
+balance,  that  the  intragroup  transactions  need  to  be  removed  from  the  calculations,  i.e. 
+trades reported with Common data field 38 “Intragroup” reported with “Y”. 
+
+24 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+  Do  you  foresee  any  potential  issues  with  identifying  correctly  the  data  to  be 
+included in the commodity derivatives aggregations? If so, please provide concrete 
+examples of cases where you would not be able to identify the trades in scope of the 
+aggregation. Please elaborate. 
+
+5.2.2  Aggregations to be performed 
+
+97. To  allow  entities  to  assess  their  trading  activity  against  each  of  the  thresholds,  ESMA 
+proposes  that  the  TRs  provide  aggregate  for  all  the  commodity  derivatives  in  the  eight 
+classes of commodity derivatives as reported in the relevant commodity derivatives data 
+fields, namely common data fields 45 and 46 of the current EMIR TS on reporting 65 and 
+66  of  the  amended  EMIR  TS  on  reporting  and  as  detailed  in  paragraph  94  of  this 
+consultation paper. 
+
+98. The aggregations per class of commodity derivatives are separate and should be provided 
+by  the  TRs  in  addition  to  the  aggregations  at  the  level  of  the  relevant  commodities 
+derivatives which use indexes which are discussed in section 6 of this consultation paper. 
+
+99. With  regard  to  granularity  of  information  per  venue  of  execution,  TRs  should  follow  the 
+separation per “Venue of execution” type defined in section 4.2.2. More importantly, for the 
+purposes of this aggregation, the transactions concluded on non-EEA venues should be 
+provided in a separate aggregation. This classification of the venues located outside the 
+EEA is independent from the fact whether the venue is covered by an equivalence decision 
+of the Commission or not.  
+
+100.  The  division  per  dual-sided  and  single-sided  EEA  and  non-EEA  trades,  used  for 
+general public data aggregation is also required for this aggregation. This granularity allows 
+to avoid double counting of trades that are reported by both contractual sides. 
+
+101.  The  aggregation  should  be  performed  at  the  level  of  reported  transactions.  The 
+aggregate  positions  per  each  class  of  commodity  derivatives  should  cover  only  the 
+aggregation per “Notional” and per “Number of transactions”, as defined in section 4.2.3. 
+
+102.  Given the high-level aggregation to be performed, it is not expected that there are any 
+
+potential confidentiality issues around the publication of the aggregates.  
+
+  Do  you  agree  with  the  proposed  types  of  aggregation  of  commodities 
+derivatives?  If  not,  what  other  aspects  should  be  taken  into  account?  Please 
+elaborate.  
+
+103.  ESMA understands that the TRs already possess the data necessary to perform the 
+aforementioned calculations. ESMA is also aware that most of the underlying data quality 
+issues related to EMIR reporting are being gradually addressed. ESMA takes into account 
+the requirement under Article 80 of EMIR providing that TRs should maintain the records 
+of derivatives for at least 10 years after the termination of the derivative contract. From that 
+perspective,  ESMA  would  expect  that  the  TRs  would  be  able  to  aggregate  the  data  in 
+accordance with the proposals outlined in this section. 
+
+25 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+ 
+
+Is  there  any  issue  that  could  potentially  prevent  TRs  from  performing 
+aggregation on classes of commodity derivatives on historical data reported before 
+the  date  of  application  of  the  amended  TS  on  reporting?  Please  provide  concrete 
+examples. 
+
+104.  Following the performance of the quantitative data aggregations as detailed in sections 
+3.1, 3.2, 4.2.2, 4.2.3 and this specific section, the trade repository should be able to publish 
+an  aggregate  number  of  the  relevant  aggregate  positions  per  class  of  commodity 
+derivative, which can be them easily aggregated across repositories.  
+
+  Do you foresee any issues in publishing a single aggregate figure per class of 
+
+commodity derivative and a TR in accordance with the aforementioned rules? 
+
+5.2.3  Frequency of publication 
+
+105.  As  mentioned  in  section  5.1,  the  entities  need  to  assess  their  trading  activity  on  an 
+
+annual basis staring form 1 July 2016. 
+
+106.  With regard to frequency of publication of the commodity derivatives aggregation there 
+are several alternatives. On the one hand, the publication can be made on a weekly basis 
+as defined in section  4.1 of this consultation paper. On the other hand, a lower frequency 
+can be allowed, although the data published should comprise all the transactions in the 
+relevant period as per the criteria specified in the previous sections.   
+
+107. 
+
+If  a  weekly  frequency  is  established,  then  the  TRs  would  need  to  keep  in  an  easily 
+accessible way aggregate data of at least the last 104 weeks. Regardless of the publication 
+of data, the TRs would be required to keep an easily accessible form aggregate data that 
+cover at least two years of activity. 
+
+  Which alternative, weekly or lower frequency, is more accurate and useful to the 
+entities relying on the data? What are the potential costs and benefits of aligning the 
+frequency  of  publication  of  commodity  derivatives  data  with  other  data 
+aggregations? Please elaborate on the reasons for your response.  
+
+6  Aggregation  of  derivatives 
+
+the  purposes  of 
+measurement  of  the  reference  value  of  a  benchmark 
+under Benchmarks Regulation 
+
+for 
+
+6.1  Aggregation requirements  
+
+108.  The  BMR  sets  three  categories  of  benchmarks  that  will  be  subject  to  different 
+requirements  according  to  their  size  and  nature.  Benchmarks  used  as  a  reference  for 
+financial instruments or financial contracts or for the determination of the performance of 
+investment funds will be categorised mainly on the basis of the following criteria: 
+
+26 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+a.  if they have a total value of at least €500bn on the basis of all the range of maturities 
+or  tenors  of  the  benchmark,  where  applicable,  or  they  have  a  total  value  of  400 
+billion EUR on the basis of all the range of maturities or tenors of the benchmark, 
+where applicable, and meet some additional conditions, they will be deemed to be 
+“critical benchmarks”15; 
+
+b.  if they have a total value of at least €50bn on the basis of all the range of maturities 
+or tenors of the benchmark, where applicable, over a period of six months, they will 
+be deemed to be “significant benchmarks”; 
+
+c. 
+
+if  they  have  a  total  value  below  €50bn,  they  will  be  deemed  “non-significant 
+benchmarks”. 
+
+109.  As stated in Article 24(3) and article 26(2) of the BMR, an administrator has to notify its 
+competent authority when its significant / non-significant benchmark falls below / above the 
+threshold of 50 billion EUR. Furthermore, the national authorities would need to supervise 
+the assessments made by the administrators and the European Commission would have 
+to adopt the relevant implementing acts to establish a list of critical benchmarks. 
+
+110.  Article  3(1)(16)  of  the  BMR  defines  a  financial  instrument  as  any  of  the  instruments 
+listed in Section C of Annex I to MiFID II for which a request for admission to trading on a 
+trading venue has been made or which are traded on a trading venue or via a systematic 
+internaliser.  
+
+111.  For the purpose of the mandate to assess benchmarks under the relevant quantitative 
+thresholds referred in Article 20(1) and Article 24(1)(a) of BMR, ESMA was requested by 
+the European Commission to provide technical advice on the appropriate measurement of: 
+
+a.  the nominal amount of financial instruments other than derivatives;  
+
+b.  the notional amount of derivatives; and  
+
+c. 
+
+the net asset value of investment funds. 
+
+112.  For all these three elements, the measurement would include both the direct case and 
+the case of the indirect reference to a benchmark within a combination of benchmarks. The 
+indirect case relates to the nominal amount of the financial instrument / notional amount of 
+the derivative / net asset value of the investment fund referencing to a single benchmark 
+(within a combination of benchmarks) which is being assessed as critical or significant. 
+
+113.  The  issue  of  determining  these  measures  should  be  considered  together  with  the 
+availability  of  the  data  needed  for  the  calculation.  ESMA  completed  an  overview  of  the 
+current and upcoming European legislation that could be considered as input data for the 
+measurement of the reference value of a benchmark. From that perspective, the notional 
+
+                                                
+
+15   According to Article 3(1)(25) of the BMR, regulated-data benchmarks (as defined under Article 3(1)(24)) are excluded from 
+
+the category of critical benchmarks. 
+
+27 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+of a derivative as defined under the current RTS on reporting and under the amended TS 
+on reporting is fulfilling the requirements for the measurement of the reference value of a 
+benchmark. 
+
+114.  Whereas the competent authorities would have access to this data, the main concern 
+is  related to the  non-availability  of  these  data  to benchmarks’  administrators. Therefore, 
+ESMA proposes to extend the current public data published by trade repositories on their 
+websites or online portals to a breakdown of the aggregate open positions per index and a 
+breakdown of aggregate transactions volumes per index. 
+
+115.  Some transactions  in the  scope  of  BMR  might  be  concluded  on  venues  or  systemic 
+internalisers that are not identified currently with a MIC code. However under RTS 23 on 
+reference  data  under  MiFID  II/MIFIR  (RTS  23,  hereinafter),  the  systematic  internalisers 
+would  need  to  identify  themselves  also  with  a  Mic  code.  To  the  extent  that  the 
+counterparties  report  consistently  their  derivative  strades  concluded  on  a  systematic 
+internaliser, it would not be needed  that the TRs publish also aggregate data on the OTC 
+trades that reference an index. 
+
+116.  Furthermore, as indicated in paragraph 22 in order to facilitate data aggregations and 
+links between the different types of indexes used, ESMA included in its final report on the 
+technical  advice  under  Article  20(1)  and  Article  24(1)(a)  of  BMR  a  recommendation  to 
+request the benchmark administrators to obtain an ISIN for all their indexes. 
+
+6.2  Aggregation proposal for derivatives that reference indexes   
+
+6.2.1  Scope of the data 
+
+117.  The data to be taken into account for the purposes of this aggregation is the one defined 
+in sections 3.1 and 3.2, except the derivatives identified as pure OTC - reported with value 
+“XXXX” in field “Venue of execution”, of this consultation paper.  
+
+118.  The derivative trades to be included in this aggregation should be those where under 
+the current RTS the field “Underlying” is populated with “I”. The reporting under the current 
+RTS on reporting would not allow the correct identification of the rest of indexes. To that 
+extent,  the  aggregations  on  indexes  could  only be  performed  once  the amended TS  on 
+reporting  become  applicable.  The  derivative  trades  to  be  included  in  this  aggregation 
+should be those where Common data field 7 under the amended EMIR ITS on reporting 
+“Underlying Identification type” is populated with “X” for index or where common data fields 
+“Floating rate of leg 1” or “Floating rate of leg 2” are populated. ESMA considers that would 
+uniquely identify all the derivatives where the underlying is an index. This would include: 
+
+a.  Equity  derivatives,  in  particular  those  using  stock  market  indexes  and  dividend 
+
+index 
+
+28 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+b.  Credit  derivatives,  in  particular  credit  default  swaps  on  indexes  or  total  return 
+
+swaps16 
+
+c.  Commodity derivatives on indexes 
+
+d.  Interest  rate  derivatives,  such  as  interest  rate  swaps  or  derivatives  where  the 
+
+underlying is a bond index 
+
+e.  Currency derivatives, where the underlying is a currency index  
+
+119.  When  performing  the  data  aggregations  for  the  purposes  of  measurement  of 
+benchmarks, the trade repositories should make use of the derivatives traded or admitted 
+to  trading  on  trading  venues  or  systematic  internalisers  that  reported  to  them  by  the 
+counterparties under the current and amended TS standards on reporting under Article 9 
+of EMIR and the reference data to be published by ESMA under RTS 23. . 
+
+120.  Where two different indexes are used in a derivative trade, the notional of that derivative 
+
+trade should be taken into account for each of the relevant aggregations per index. 
+
+  Are there any other types of derivatives than those mentioned in paragraph 118 
+that  need  to  be  taken  into  account  in  order  to  provide  more  comprehensive 
+aggregations  of  derivatives  that  reference  indexes?  Please  provide  concrete 
+examples. Please elaborate. 
+
+6.2.2  Aggregations to be performed 
+
+6.2.2.1  Aggregation of derivatives trades where an interest rate index is used 
+
+121.  A trade repository should provide aggregate data per each index used. The index could 
+
+be used either as a floating rate of a derivative contract or as an underlying.  
+
+122. 
+
+In the case of floating rates, ESMA has already provided a closed list of values to be 
+reported, hence the identification and aggregation of floating rate interest rate derivatives 
+is facilitated. This still leaves open the question on updates of the values included in that 
+list. The proposed way forward for data updates  would be made in accordance with the 
+governance structure of ISO 20022 messages, which is outlined in paragraph 132.  
+
+123.  From the perspective of index used as underlying, the trade repository should identify 
+in advance the relevant ISINs issued for indexes so that it can easily perform aggregations 
+at index level. This can be done by making use of the reference data provided in RTS 23. 
+For the purposes of interest rate indexes, ESMA has included in RTS 23 the same list of 
+allowable  values  as  the  one  provided  for  in  Common  data  fields  55  and  58  under  the 
+amended ITS on reporting under EMIR.  
+
+                                                
+
+16 It is worth mentioning that total return swaps would have also an underlying equity index 
+
+29 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+124. 
+
+It  is  important  that,  when  establishing  the  relevant  links  for  the  purposes  of  data 
+aggregations the TRs, validate the data used to identify the relevant derivative using an 
+index. This would ensure that the subsequent aggregations are correctly performed. 
+
+125. 
+
+ As mentioned in paragraph 108, in the case of derivatives using interest rate indexes, 
+the aggregations should be made across all the maturities and tenors of the same interest 
+rate index. Hence it would not be necessary that TRs aggregate the data per each maturity 
+or tenor. In that case the TRs are expected to present the data identifying separately each 
+index. This aggregation would be different form the one on non-interest rate indexes where 
+the aggregation should be at the level of each ISIN.  
+
+126.  The  aggregate  positions  per  each  index  should  cover  only  the  aggregation  per 
+
+“Notional” and per “Number of transactions, as defined in section 4.2.3. 
+
+127.  The rest of practicalities of the actual aggregations are detailed in sections 4 and 6.2.2.4 
+
+. 
+
+  What  practical  issues  would  you  foresee  in  aggregating  data  on  interest  rate 
+indexes?  What  mechanisms  should  be  put  in  place  to  ensure  that  a  TR  is  in  a 
+possession of accurate reference data to identify derivatives that have an underlying 
+interest rate index? How the objective of publishing accurate aggregations can be 
+achieved in the most efficient way? Please elaborate  
+
+6.2.2.2  Aggregation of derivative trades where a non-interest rate index is used  
+
+128. 
+
+In the case of the non-interest rate indexes, ESMA understands that at this stage this 
+applies only when indexes are used as underlyings17. The amended EMIR TS on reporting 
+provide that the index is identified either with (i) an ISO 6166 code, i.e. an ISIN or a (ii) full 
+name  of  the  index  as  assigned  by  the  index  provider.  Under  RTS  23  the  entities  are 
+required  to  choose  among  the  values  in  the  closed  list  or  use  a  free  text  to  report  this 
+information. As mentioned earlier, ESMA included in its final advice under Article 20(1) and 
+Article  24(1)(a)  of  BMR  a  recommendation  to  request  the  benchmark  administrators  to 
+obtain an ISIN for all their indexes. 
+
+129.  The  most  widely  used  contracts  under  this  classification  are  indicatively  included  in 
+
+paragraph 131 of this consultation paper.  
+
+130.  The objective is that, by using the reference data, the TRs identify and link all the ISINs 
+that refer to the same index in order to prepare and calculate all the relevant aggregations 
+for that index.  
+
+131.  ESMA understands that the definition and requirements currently included in RTS 23 
+under MiFID II might not be sufficient to ensure unique and unambiguous identification of 
+the  derivatives  and  there  is  still  a  possibility  that  the  reporting  entities  are  not  providing 
+
+                                                
+
+17 None of the other reporting fields under EMIR refers to indexes  
+
+30 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+reference  data  in  a  consistent  way.  This  might  lead  to  practical  problems  for  data 
+aggregation. In particular, this would affect: 
+
+a.  Equity indexes, such as stock market indexes and dividend indexes, e.g. Eurostoxx 
+
+50, FTSE 100, DAX 30, CAC 40, etc. 
+
+b.  Credit indexes, such as CDX, iTraxx, etc. 
+
+c.  Commodity indexes, such as CCI, etc.  
+
+d.  Bond  indexes,  such  as  Merrill  Lynch  Global  Bond  Index,  Barclays  Capital 
+
+Aggregate index, etc. 
+
+e.  Currency indexes, such as Euro Currency index, etc.  
+
+6.2.2.3 
+
+Identification and linking of derivatives using non-interest rate indexes 
+
+132. 
+
+It is worth mentioning that RTS 23 requires reporting to be made in ISO 20022 template. 
+For  the  purpose  of ISO 20022  messaging  standards,  certain  maintenance functions  are 
+performed as part of the general governance. In this regard, ESMA considers that gradually 
+a  comprehensive  data  catalogue  or  data  dictionary  with  all  the  indexes  used  in  the  EU 
+could be built. This would ensure the consistent reporting of the relevant reference data by 
+the entities and it will ensure the unique and unambiguous identification and linking of data 
+by TRs. 
+
+133.  Given that the accuracy and consistency of reference data is dependent on the data 
+reported, ESMA understands that, subject to the implementation of the recommendation 
+to  obtain  an  ISIN  for  each  index,  the  benchmark  administrators  would  contribute  to  the 
+building of data catalogue to be used for the purposes of data aggregation under EMIR.  
+
+134.  This approach would ensure the production of free of cost data catalogue with the most 
+relevant  indexes,  however  the  time  to  complete  the  data  catalogue  might  be  somehow 
+extensive,  which  might  lead  to  practical  difficulties  for  competent  authorities  and 
+benchmark administrators to assess timely and correctly the information.  
+
+135. 
+
+In  the  particular  case  of  credit  derivatives,  the  notional  amount  used  for  calculation 
+should be adjusted by the index factor reported in Common data field 89 in the amended 
+EMIR TS on reporting. 
+
+  Do  you  consider  this  approach  feasible?  What  type  of  information  should  be 
+provided by the benchmark administrators? Which other entities should be involved 
+in the reference  data  collection?  How timely  should  be  the  provision  of  reference 
+data to update the ISO 20022 data catalogue? What are the potential costs of such 
+solution? Please elaborate. 
+
+  What alternative solutions are available? Please elaborate.  
+
+31 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+6.2.2.4  General aspects on aggregation of derivatives that reference indexes 
+
+136.  ESMA is also aware that there are certain instances where a basket of indexes is traded 
+as relevant underlying of a derivative. In that case the current TS on reporting do not allow 
+the  identification  of  the  individual  components,  however  the  amended  TS  on  reporting 
+would  allow  such  identification.  ESMA  is  of  the  opinion  that  to  the  extent  that  a  trade 
+repository could identify the weightings of the components, those should be used as they 
+are. In case the weightings are not available, ESMA has included in its final advice that the 
+weightings of the components should be equal. Stemming from this, if a derivative has a 
+notional of 1,000,000 and two components, each should be accounted as 500,000.   
+
+  Do you foresee any difficulties in implementing the suggested approach on data 
+aggregation  in  the  case  of  baskets?  Please  elaborate  on  the  reasons  for  your 
+response.  
+
+137.  Furthermore, Article 81(5) EMIR provides that the draft regulatory technical standards 
+shall aim to ensure that the information published by the TRs is not capable of identifying 
+a party to any contract.  
+
+138. 
+
+In  order  to  fulfil  this  confidentiality  requirement  and  not  allow  the  identification  of 
+individual parties, the breakdown per index to be published has to take into account the 
+following limit – publication of the aggregate notional amounts of derivatives using an index 
+should take place only for derivatives transactions on indexes where the aggregate notional 
+amount  is  at  least  5  billion  and  where  there  are  at  least  6  different  counterparties,  i.e. 
+entities with different LEIs involved. In case there are less than 6 different counterparties 
+that  have  concluded  derivatives  transactions  in  the  scope  of  this  aggregation,  but  the 
+aggregate  notional  amount  is  above,  the  trade  repository  should  include  the  aggregate 
+figure together with other aggregations that have similar characteristics in a bucket called 
+“Other”.  
+
+ 
+
+Is the limit of 5 billion EUR per index and TR, where there are at least 6 different 
+counterparties to trades, sufficient to provide the sufficient transparency over those 
+transactions, while not undermining the confidentiality of the data? Please elaborate 
+on the reasons for your response. 
+
+139.  The  trade repository  should  be  able to  publish  an  aggregate  number  of the  relevant 
+aggregate  positions  for  derivatives  that  reference  indexes,  where  the  field  “Venue  of 
+execution” is populated with “XOFF” and an “EEA MIC”, as those are defined in section 
+4.2.2. 
+
+140.  Following the performance of the quantitative data aggregations as detailed in section 
+3.1, 3.2, 4.2.2 and 4.2.3, the trade repository should be able to publish also an aggregate 
+number  of  the  relevant  aggregate  positions  for  each  index,  which  can  be  them  easily 
+aggregated across repositories.  
+
+  Do you foresee any issues in publishing a single aggregate figure per index and 
+
+a TR in accordance with the aforementioned rules? 
+
+32 
+
+ 
+
+ 
+
+6.2.3  Frequency of publication 
+
+ESMA REGULAR USE 
+
+141.  While  the  NCAs  and  the  benchmark  administrators  would  need  to  assess  the 
+significance of the index over six months period, ESMA understands that it will be sufficient 
+to  provide  the  aggregate  data  with  the  same  frequency  as  the  rest  of  aggregations  are 
+provided, as detailed in section 4.1. 
+
+ 
+
+ 
+
+33 
+
+ESMA REGULAR USE 
+
+ 
+
+ 
+
+7  Annexes 
+
+7.1  Annex I 
+
+Legislative mandate to develop draft technical standards 
+
+Article 81(5) 
+
+In  order  to  ensure  consistent  application  of  this  Article,  ESMA  shall,  after  consulting  the 
+members of the ESCB, develop draft regulatory technical standards specifying the frequency 
+and  the  details  of  the  information  referred  to  in  paragraphs  1  and  3  as  well  as  operational 
+standards  required  in  order to  aggregate  and  compare  data  across repositories  and for the 
+entities  referred  to  in  paragraph  3 to  have  access  to  information  as  necessary. Those  draft 
+regulatory  technical  standards  shall  aim  to  ensure  that  the  information  published  under 
+paragraph 1 is not capable of identifying a party to any contract.  
+
+ 
+
+ 
+
+34 
+
+ 
+
+ 
+
+7.2  Annex II 
+
+List of questions 
+
+ESMA REGULAR USE 
+
+  For the purpose of more accurate aggregation of ETD volumes between the CM and its 
+clients should only the trades where the CM is reporting counterparty be taken into account or 
+should all trades where CM is on either side of the ETDs be considered? Please elaborate. 
+
+  For the purpose of more accurate aggregation of ETD volumes between the CM and 
+the  CCP,  is  the  “Beneficiary  ID”  the  appropriate  field  or  the  “Transaction  reference 
+number/Report tracking number” field should be used? Do you envisage any other alternative 
+at this stage? What are the potential costs and benefits of implementing any of the proposed 
+options? Please elaborate on the reasons for your response. 
+
+  For the purposes of more accurate aggregation of ETD market volume, do you agree 
+with the proposed approach to take into account only the original ETD executions, i.e. those 
+that  are  reported  under  the  current  RTS  on  reporting  with  action  types  “N”  which  would  be 
+reported under the amended TS on reporting with action type “P”? Please elaborate on the 
+reasons for your response. 
+
+  For the purposes of calculating ETD market volume, do you agree with the proposed 
+approach to divide by 2 the resulting aggregations in order to cater for the inherent duplication 
+of trading volume of ETDs? Please elaborate on the reasons for your response. 
+
+  For  the  purpose  of  aggregating  more  accurately  OTC  derivatives  volume  of  market 
+activity, do you agree with the proposed approach to take into account only the original bilateral 
+OTC and XOFF trades, i.e. those that are reported with action type “N”? Please elaborate on 
+the reasons for your response. 
+
+  Do you consider that the approaches outlined in sections 3.1 and 3.2 should be taken 
+into account for the purposes of calculating also total volumes of reported transactions? Please 
+elaborate on the reasons for your response. 
+
+  Do you agree with the proposed cut-off and publication times? If not, what other aspects 
+
+need to be considered? Please elaborate. 
+
+  Are  there  any  further  specific  additional  conditions  that  need  to  be  included?  Please 
+
+elaborate on the reasons for your response. 
+
+  Further  to  products  and  currencies,  what  other  data  elements  need  to  be  taken  into 
+account to correctly identify outliers from the aggregate position data? How should the outliers 
+be treated – not at all included in data aggregations or included in a raw data aggregation, but 
+removed from a cleansed one? Please elaborate on the reasons for your response. 
+
+  Should the reconciliation status be taken into account? Should only reconciled trades 
+
+be included? Please elaborate. 
+
+  Do you agree with the suggested aggregation per type of “Venue of execution”? 
+  What other aggregations could be provided? What additional aspects should be taken 
+
+into account? Please elaborate. 
+
+  Do you agree with the suggested categories? If not, what other aspects should be taken 
+
+into account? Please elaborate on the reasons for your response. 
+
+  Should  ESMA  establish  a  longer  period  of  time  for  keeping  publicly  available 
+
+aggregates? What are the costs and benefits of a longer availability? Please elaborate. 
+
+  Should the data made published by the TRs be in pivoted table form or in tabular form? 
+
+What are the potential costs and benefits of each alternative? 
+
+35 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+  Do you agree with the proposed treatment of legacy trades? Please elaboarate on the 
+
+reasons for your response. 
+
+  What other aspects should be taken into account for the purposes of publication of data? 
+
+Please elaborate. 
+
+  Do you foresee any potential issues with identifying correctly the data to be included in 
+the  commodity  derivatives  aggregations?  If  so,  please  provide  concrete  examples  of  cases 
+where  you  would  not  be  able  to  identify  the  trades  in  scope  of  the  aggregation.  Please 
+elaborate. 
+
+  Do you agree with the proposed types of aggregation of commodities derivatives? If not, 
+
+what other aspects should be taken into account? Please elaborate. 
+
+  Is there any issue that could potentially prevent TRs from performing aggregation on 
+classes of commodity derivatives on historical data reported before the date of application of 
+the amended TS on reporting? Please provide concrete examples. 
+
+  Do  you  foresee  any  issues  in  publishing  a  single  aggregate  figure  per  class  of 
+
+commodity derivative and a TR in accordance with the aforementioned rules? 
+
+  Which alternative, weekly or lower frequency, is more accurate and useful to the entities 
+relying  on  the  data? What  are  the  potential  costs  and  benefits  of  aligning  the  frequency  of 
+publication of commodity derivatives data with other data aggregations? Please elaborate on 
+the reasons for your response. 
+
+  Are there any other types of derivatives than those mentioned in paragraph 117 that 
+need  to  be  taken  into  account  in  order  to  provide  more  comprehensive  aggregations  of 
+derivatives that reference indexes? Please provide concrete examples. Please elaborate. 
+
+  What practical issues would you foresee in aggregating data on interest rate indexes? 
+What mechanisms should be put in place to ensure that a TR is in a possession of accurate 
+reference  data  to  identify  derivatives  that  have  an  underlying  interest  rate  index?  How  the 
+objective  of  publishing  accurate  aggregations  can  be  achieved  in  the  most  efficient  way? 
+Please elaborate 
+
+  Do you consider this approach feasible? What type of information should be provided 
+by  the  benchmark  administrators? Which  other  entities  should  be  involved  in  the  reference 
+data collection? How timely should be the provision of reference data to update the ISO 20022 
+data catalogue? What are the potential costs of such solution? Please elaborate. 
+
+  What alternative solutions are available? Please elaborate. 
+  Do  you  foresee  any  difficulties  in  implementing  the  suggested  approach  on  data 
+
+aggregation in the case of baskets? Please elaborate on the reasons for your response. 
+
+  Is  the  limit  of  5  billion  EUR  per  index  and  TR,  where  there  are  at  least  6  different 
+counterparties  to  trades,  sufficient  to  provide  the  sufficient  transparency  over  those 
+transactions,  while  not  undermining the confidentiality  of  the  data?  Please  elaborate  on  the 
+reasons for your response. 
+
+  Do you foresee any issues in publishing a single aggregate figure per index and a TR 
+
+in accordance with the aforementioned rules? 
+ 
+
+ 
+
+ 
+
+36 
+
+ESMA REGULAR USE 
+
+ 
+
+ 
+
+7.3  Annex III 
+
+Draft regulatory technical standards on trade repositories 
+
+ 
+
+COMMISSION DELEGATED REGULATION (EU) …/… 
+
+of [   ] 
+
+Amending Commission Delegated Regulation (EU) No 151/2013 of 19 December 
+
+2012 supplementing Regulation (EU) No 648/2012 of the European Parliament 
+
+and of the Council 
+
+(Text with EEA relevance) 
+
+THE EUROPEAN COMMISSION, 
+
+Having regard to the Treaty on the Functioning of the European Union, 
+
+Having regard to the opinion of the European Central Bank,  
+
+Having  regard  to  Regulation  (EU)  No  648/2012  of  the  European  Parliament  and  of  the 
+Council of 4 July 2012 on OTC derivatives, central counterparties and trade repositories, 
+and in particular Article 81 (5) thereof, 
+
+Whereas: 
+
+(1)  [To be completed once RTS is finalised] 
+
+(2)  Therefore,  it  is  imperative  to  amend  Commission  Delegated  Regulation  (EU)  No 
+151/2013  in  order  to  better  specify  the  operational  framework  for  publication  of 
+aggregate data and comparison of data across trade repositories. 
+
+(3)  This Regulation is based on the draft regulatory technical standards submitted by the 
+
+European Securities and Markets Authority to the Commission.  
+
+(4)  In accordance with Article 10 of Regulation (EU) No 1095/2010, ESMA has consulted 
+the relevant authorities and the members of the European System of Central Banks 
+(ESCB)  before  submitting  the  draft  regulatory  technical  standards  on  which  this 
+Regulation  is  based.  ESMA  has  also  conducted  open  public  consultations  on  these 
+draft regulatory technical standards, analysed the potential related costs and benefits 
+and  requested  the  opinion  of  the  ESMA  Securities  and  Markets  Stakeholder  Group 
+established in accordance with Article 37 of that Regulation, 
+
+HAS ADOPTED THIS REGULATION 
+
+37 
+
+ 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+Article 1 
+
+Amendments to Commission Delegated Regulation (EU) No 151/2013 
+
+(1) 
+
+Article 1 is replaced as follows: 
+
+1.  A trade repository shall publish aggregate position data per asset class on its website on 
+a weekly basis.no later than Tuesday noon on the derivatives reported by 23:59:59 UTC 
+of  the  previous  Friday  in  accordance  with  the  aggregations  detailed  in  the  following 
+paragraphs. 
+
+2.  To  allow  aggregation  of  data  on  volumes  of  derivatives  across  trade  repositories,  each 
+trade repository shall publish aggregate position data for all the derivatives reported with 
+action type “New”, of Commission Implementing Regulation (EU) No 1247/2012, between 
+00:00:00 UTC of Saturday and 23:59:59 UTC of Friday. 
+
+3.  A trade repository shall publish aggregate data of all the derivatives that have not matured 
+or  for  which  reports  with  action  types  “E”,  “C”,  “P”  or  “Z,”  of  Commission  Implementing 
+Regulation (EU) No 1247/2012, as of 23:59:59 UTC of Friday, have not been made.  
+
+4.  A trade repository shall publish aggregate position data on the basis of the type of venue 
+
+of execution of each derivative in the following manner: 
+
+a.  Reports where the field “Venue of execution” is populated with “XXXX” 
+
+b.  Reports where the field “Venue of execution” is populated with “XOFF” 
+
+c.  Reports  where  the  field  “Venue  of  execution”  is  populated  with  MIC  code,  in 
+
+accordance with ISO 10383, pertaining to a venue located in the Union 
+
+d.  Reports  where  the  field  “Venue  of  execution”  is  populated  with  MIC  code,  in 
+
+accordance with ISO 10383, pertaining to a venue located outside the Union 
+
+5.  A trade repository shall publish aggregate data in accordance with the following categories: 
+
+a.  Dual-sided cleared 
+
+b.  Dual sided, non-cleared 
+
+c.  Single-sided EEA cleared 
+
+d.  Single-sided EEA non-cleared 
+
+e.  Single-sided non-EEA cleared 
+
+f.  Single-sided non-EEA non-cleared 
+
+38 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+6.  A  trade  repository  shall  publish  aggregate  position  data  per  derivative  asset  class,  as 
+defined in common data [insert: field “Product ID 1” and common data field “Product Id 2” 
+of the Commission Implementing Regulation (EU) No  1247/2012 or field “Asset class of 
+the amended Commission Implementing Regulation (EU) No 1247/2012] calculated by: 
+
+a.  Aggregating the absolute value of Common data field “Notional”  
+
+b.  Aggregating  the  number  of  the  derivative  contracts,  based  on  filed  “Quantity”, 
+except  in  the  case  of  spreadbets  where  the  number  of  contracts  should  be 
+considered as equal to 1. 
+
+c.  Aggregating the number of derivative transactions, considering the unique Trade 
+
+IDs between two counterparties 
+
+d.  Aggregating the absolute value of Counterparty data field “Value of the contract”  
+
+Where  an  aggregate  position  is  categorised  as  dual-sided  cleared  or  dual-sided  non-
+cleared, a trade repository shall divide the resulting aggregate figure by two.    
+
+7.  A trade repository shall publish all aggregate data in euro and shall use the exchange rates 
+
+published in the ECB website as of the previous Friday. 
+
+8.  A trade repository shall include in the aggregate position data under this Article, derivatives 
+reported  where  the  common  data  field  “Intragroup”  of  Commission  Implementing 
+Regulation (EU) No 1247/2012 is reported as “Yes”. 
+
+9.  A trade repository shall publish aggregate data in tabular form as detailed in Table A of the 
+
+annex to this RTS. 
+
+10. A trade repository shall keep in its website in easily accessible form aggregate data for the 
+
+previous 104 weeks. 
+
+Article 1a 
+
+Publication of data on commodity derivatives 
+
+1.  A  trade  repository  shall  publish  aggregate  position  data  for  classes  of  commodity 
+derivatives  as  per  each  of  the  following  details  reported  in  common  data  [insert:  either 
+common  data  fields  45  and  46  of  Commission  Implementing  Regulation  (EU)  No 
+1247/2012 or fields 65 and 66 of the amended Commission Implementing Regulation (EU) 
+No 1247/2012]: 
+
+a.  metals – “commodity base” field reported as ‘ME’. 
+
+b.  oil products – “commodity details” reported with ‘OI’ 
+
+c.  coal – “commodity details” reported with ‘CO’ 
+
+39 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+d.  gas – “commodity details” reported with ‘NG’ 
+
+e.  power – “commodity details” reported with ‘EL’ or ‘IE’ 
+
+f.  agricultural products – “commodity base” reported with ‘AG’ 
+
+g.  other commodities including freight and C10 – “commodity base” reported with ‘FR’ 
+
+or ‘IN’ or ‘EX’ or ‘OT’ or “commodity details” reported with ‘WE’ 
+
+h.  derivatives on emission allowances – “commodity details” reported with ‘EM’. 
+
+2.  When  publishing  aggregate  position  data  under  paragraph  1,  a  trade  repository  shall 
+exclude all reports where the common data field “Intragroup” of Commission Implementing 
+Regulation (EU) No 1247/2012 is reported as “Yes”. 
+
+3.  When  publishing  aggregate  position  data  under  paragraph  1,  a  trade  repository  shall 
+
+include : 
+
+a.  Derivatives where  
+
+i. 
+
+ii. 
+
+iii. 
+
+iv. 
+
+the common data field “Venue of execution” is reported with a MIC code 
+different from XXXX or XOFF,  
+
+the LEI reported in the counterparty data fields “Reporting Counterparty 
+ID” or “ID of the other counterparty” is the same as the LEI reported in 
+counterparty data field “Clearing member ID”,  
+
+the LEI reported in counterparty data fields “Reporting Counterparty ID” 
+or “ID of the other counterparty” is not a CCP, and  
+
+the common data field “Action type” is populated with [insert: either “N” 
+and  the  common  data  field  “Compression”  is  populated  with  “No”  for 
+reports  before  the  date  of  application  of  the  amended  technical 
+standards  on  reporting  or  “P”  and  the  common  data  field  “Level”  is 
+populated with “Transaction” for reports after the date of application of 
+the  amended  Commission 
+(EU)  No 
+1247/2012] 
+
+Implementing  Regulation 
+
+b.  Derivatives where 
+
+i. 
+
+ii. 
+
+the common data field “Venue of execution” is reported with a MIC code 
+different from XXXX or XOFF,  
+
+the LEI in the counterparty data fields “Reporting Counterparty ID” or “ID 
+of the other counterparty” is the same as the LEI reported in counterparty 
+data field “Clearing member ID”,  
+
+40 
+
+ 
+
+ 
+
+iii. 
+
+iv. 
+
+ESMA REGULAR USE 
+
+the LEI reported in counterparty data fields “Reporting Counterparty ID” 
+or “ID of the other counterparty” is a CCP, and  
+
+[insert:  either  “N”  and 
+
+the field [insert: the field “Beneficiary ID” is not populated with the LEI of 
+the  clearing  member  ID];  the  common  data  field  “Action  type”  is 
+populated  with 
+field 
+“Compression”  is  populated  with  “No”  for  reports  before  the  date  of 
+application of the amended Commission Implementing Regulation (EU) 
+No 1247/2012or “P” and the common data field “Level” is populated with 
+“Transaction”  for  reports  after  the  date  of  application  of  the  amended 
+Commission Implementing Regulation (EU) No 1247/2012] 
+
+the  common  data 
+
+c.  Derivatives where  
+
+i. 
+
+the common data field “Venue of execution” is reported with “XXXX”;  
+
+ii. 
+
+the common data field “Cleared” is reported as “No”;  
+
+iii. 
+
+the common data field “Action type” is populated with N; and  
+
+iv. 
+
+the common data field “Compression” is populated with “No”, 
+
+d.  Derivatives where  
+
+i. 
+
+the common data field “Venue of execution” is reported with “XOFF”, 
+
+ii. 
+
+the common data field “Cleared” is reported as “No”, 
+
+iii. 
+
+the common data field “Action type” is populated with N, and  
+
+iv. 
+
+the common data field “Compression” is populated with “No”. 
+
+4.  When publishing aggregate position data as defined under points a and b of paragraph 3, 
+
+the trade repository shall divide all the relevant aggregate figures by two.   
+
+5.  A trade repository shall publish aggregate data under paragraph 1 in accordance with the 
+requirements  established  in  paragraphs  1,  4  and  5,  points  a  and  c  of  paragraph  6  and 
+paragraphs 7 and 10 of Article 1 and taking due account of paragraph 4 of this Article.  
+
+6.  After  performing  the  aggregations  in  paragraphs  4  and  5,  a  trade  repository  shall  also 
+publish a total aggregate notional per each commodity derivatives asset class, as defined 
+in paragraph 1.  
+
+7.  A trade repository shall publish aggregate data under this Article in tabular form as detailed 
+
+in Table B of the annex to this RTS. 
+
+8.  When  publishing the  aggregations  under  this  Article for the first  time,  a trade  repository 
+
+shall include all the relevant aggregations starting from 1 July 2016.  
+
+41 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+Article 1b 
+
+Publication of data on derivatives that reference indexes 
+
+1.  A  trade  repository  shall  only  publish  aggregate  position  data    for  derivative  contracts 
+
+referencing indexes. 
+
+2.  When  publishing  aggregate  position  data  under  paragraph  1,  a  trade  repository  shall 
+
+include: 
+
+a.  Derivatives where  
+
+i. 
+
+ii. 
+
+iii. 
+
+iv. 
+
+the common data field “Venue of execution” is reported with a MIC code 
+different from XXXX or XOFF,  
+
+the LEI reported in the counterparty data fields “Reporting Counterparty 
+ID” or “ID of the other counterparty” is the same as the LEI reported in 
+counterparty data field “Clearing member ID”,  
+
+the LEI reported in counterparty data fields “Reporting Counterparty ID” 
+or “ID of the other counterparty” is not a CCP, and  
+
+the common data field “Action type” is populated with [insert: either “N” 
+and  the  common  data  field  “Compression”  is  populated  with  “No”  for 
+reports  before  the  date  of  application  of  the  amended  Commission 
+Implementing  Regulation  (EU)  No  1247/2012  or  “P”  and  the  common 
+data  field  “Level”  is  populated  with  “Transaction”  for  reports  after  the 
+date  of  application  of 
+Implementing 
+Regulation (EU) No 1247/2012] 
+
+the  amended  Commission 
+
+b.  Derivatives where 
+
+i. 
+
+ii. 
+
+iii. 
+
+iv. 
+
+the common data field “Venue of execution” is reported with a MIC code 
+different from XXXX or XOFF,  
+
+the LEI in the counterparty data fields “Reporting Counterparty ID” or “ID 
+of the other counterparty” is the same as the LEI reported in counterparty 
+data field “Clearing member ID”,  
+
+the LEI reported in counterparty data fields “Reporting Counterparty ID” 
+or “ID of the other counterparty” is a CCP, and  
+
+the field [insert: the field “Beneficiary ID” is not populated with the LEI of 
+the  clearing  member  ID];  the  common  data  field  “Action  type”  is 
+populated  with 
+field 
+“Compression”  is  populated  with  “No”  for  reports  before  the  date  of 
+application of the amended Commission Implementing Regulation (EU) 
+No 1247/2012 or “P” and the common data field “Level” is populated with 
+
+[insert:  either  “N”  and 
+
+the  common  data 
+
+42 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+“Transaction”  for  reports  after  the  date  of  application  of  the  amended 
+Commission Implementing Regulation (EU) No 1247/2012] 
+
+c.  Derivatives where  
+
+i. 
+
+the common data field “Venue of execution” is reported with “XOFF”, 
+
+ii. 
+
+the common data field “Cleared” is reported as “No”, 
+
+iii. 
+
+the common data field “Action type” is populated with N, and  
+
+iv. 
+
+the common data field “Compression” is populated with “No”. 
+
+3.  When publishing aggregate position data as defined under points a and b of paragraph 2, 
+
+the trade repository shall divide all the relevant aggregate figures by two.   
+
+4.  Where two or more indexes are used in a derivative under paragraph 2, for the purpose of 
+publishing  aggregate  data,  the  notional  of  that  derivative  shall  be  divided  by  the  trade 
+repository by the number of the different indexes used. 
+
+5.  A trade repository shall publish aggregate data under paragraph 1 in accordance with the 
+requirements  established  in  paragraphs  1,  4  and  5,  points  a  and  c  of  paragraph  6  and 
+paragraphs 7, 8 and 10 of Article 1 and taking due account of paragraphs 3 and 4 of this 
+Article.  
+
+6.  After performing the aggregations of position data in paragraph 5, a trade repository shall 
+
+also publish a total aggregate notional per each index.  
+
+7.  To  ensure the  confidentiality  of  aggregate  position  data,  a  trade  repository  shall  publish 
+aggregate  position  date on  indexes  that  reference  an  index  only  the  aggregate  notional 
+amount is greater than 5 billion EUR and there are at least six different counterparties that 
+have concluded the relevant derivative contracts.  
+
+8.  A trade repository shall publish  under “Other” total aggregate data on all the derivatives 
+
+that reference an index and do not fulfil the requirement under paragraph 7  
+
+9.  A trade repository shall publish aggregate data under this Article in tabular form as detailed 
+
+in Table C of the annex to this RTS. 
+
+ 
+
+ 
+
+Article 2 
+
+Entry into force and application 
+
+43 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+This Regulation shall enter into force on the twentieth day following that of its publication in the 
+Official Journal of the European Union. 
+
+Article  1b  shall  apply  from  [insert:  the  latest  between  the  entry  into  force  of  Commission 
+Delegated Regulation under Article 20(1) and Article 24(1)(a) of BMR and three months after 
+the entry into force of the Commission Delegated Regulation under RTS 23 MIFIR]  
+
+ 
+
+This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+
+Done at Brussels, […] 
+
+[For the Commission 
+
+The President] 
+
+[On behalf of the President] 
+
+ 
+
+ 
+
+44 
+
+ 
+
+ 
+
+ 
+
+Table A. Aggregation per asset class 
+
+ESMA REGULAR USE 
+
+Date 
+
+TR 
+
+Aggregation 
+Type 
+
+Venue 
+type 
+
+Reporting type 
+
+Asset class 
+
+Aggregate 
+Notional 
+
+Aggregate 
+Value 
+
+Aggregate No  
+transactions  
+
+Aggregate No 
+contracts 
+
+20161007  EU TR  Reported  
+
+XXXX 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+Outstanding 
+
+XOFF 
+
+… 
+
+… 
+
+… 
+
+… 
+
+EEA MIC 
+non-EEA 
+MIC 
+
+… 
+
+… 
+
+Dual-sided cleared  Commodities  … 
+Dual sided, non-
+cleared 
+Single-sided EEA 
+cleared 
+Single-sided EEA 
+non-cleared 
+Single-sided non-
+EEA cleared 
+
+Currency 
+
+Interest 
+
+… 
+
+… 
+
+… 
+
+… 
+
+Credit 
+
+Equity 
+
+Single-sided non-
+EEA non-cleared  … 
+
+… 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+… 
+
+45 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+ 
+ 
+ 
+Table B Aggregation per commodities derivatives class 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Date 
+
+TR 
+
+Aggregation 
+Type 
+
+Venue type  Reporting type 
+
+Asset class 
+
+Commodity 
+class 
+
+Aggregate 
+Notional 
+
+Aggregate 
+No 
+transactions 
+
+20161007  EU TR  Reported  
+
+XXXX 
+
+… 
+… 
+
+… 
+… 
+
+… 
+
+  
+
+  
+
+ 
+
+ 
+
+… 
+… 
+
+… 
+… 
+
+… 
+
+ 
+
+  
+
+ 
+
+… 
+… 
+
+… 
+… 
+
+… 
+
+ 
+
+  
+
+ 
+
+ 
+
+XOFF 
+EEA MIC 
+non-EEA 
+MIC 
+… 
+
+… 
+
+ 
+
+  
+
+ 
+
+Commodities 
+
+ 
+ 
+
+ 
+Dual sided, non-
+cleared 
+ 
+Single-sided EEA 
+non-cleared 
+ 
+Single-sided non-
+EEA non-cleared  … 
+
+ 
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+  
+
+ 
+
+Metals 
+
+Oil  
+Coal 
+
+Gas 
+Power 
+
+… 
+
+… 
+… 
+
+… 
+… 
+
+Agricultural  … 
+Other 
+commodities 
+
+ 
+
+Emission 
+allowances 
+
+ 
+
+  
+
+ 
+
+… 
+
+… 
+… 
+
+… 
+… 
+
+… 
+
+  
+
+  
+
+ 
+
+46 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+ 
+Table C. Aggregation per derivative using indexes 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Date 
+
+TR 
+
+Aggregation 
+Type 
+
+Venue 
+type 
+
+Reporting type 
+
+Asset class 
+
+Index ID 
+
+Aggregate 
+Notional 
+
+Aggregate 
+No 
+transactions 
+
+20161007  EU TR 
+
+Reported  
+
+XXXX 
+
+… 
+
+… 
+
+… 
+… 
+
+… 
+  
+
+… 
+
+… 
+
+… 
+… 
+
+… 
+  
+
+…. 
+
+… 
+
+… 
+… 
+
+… 
+  
+
+XOFF 
+EEA 
+MIC 
+non-
+EEA 
+MIC 
+… 
+
+… 
+  
+
+ 
+Dual sided, non-
+cleared 
+
+Commodities  XXXIBOR 
+
+Credit 
+
+ISIN 
+
+ 
+
+Currency 
+
+… 
+
+Single-sided EEA 
+non-cleared 
+ 
+Single-sided non-
+EEA non-cleared 
+  
+
+Equity 
+Interest 
+
+… 
+  
+
+… 
+… 
+
+… 
+  
+
+… 
+
+… 
+
+… 
+
+… 
+… 
+
+… 
+  
+
+… 
+
+… 
+
+… 
+
+… 
+… 
+
+… 
+  
+
+47 
+
+ESMA REGULAR USE 
+
+ 
+
+ 
+
+7.4  Annex IV 
+
+Cost-benefit analysis 
+
+ESMA’s  choices  in  this  review  are  of  a  pure  technical  nature  and  do  not  imply  strategic 
+decisions or policy choices.  
+
+ESMA’s  options  are  limited  to  the  approach  it  took  to  drafting  these  particular  regulatory 
+technical standards and the need to ensure harmonised and standardised aggregate data and 
+to provide greater value of the data which is reported under EMIR. 
+
+The  main  policy  decisions  have  already  been  analysed  and  published  by  the  European 
+Commission taken under the secondary legislation, i.e. EMIR.  
+
+The impact of such policy decisions has already been taken into account when drafting the 
+technical standards on reporting to trade repositories, including the ones being amended, and 
+may be found under the following link: 
+
+http://www.esma.europa.eu/system/files/2012-379.pdf 
+
+As mentioned in sections 2.2 and 2.3, there are two EU regulations, in particular MiFID II and 
+BMR, which require the use of EU aggregate derivatives data for different incumbent entities. 
+In one case, MiFID II provides that market participants assess their trading volumes in certain 
+classes  of  commodity  derivatives.  In  the  other  case,  BMR  establishes  that  index  providers 
+assess  the  significance  of  their  respective  indexes  vis-à-vis  a  threshold  established  in  the 
+BMR. In the absence of TR data these entities would need to run complex and costly processes 
+to  compile  the  data  across  all  the  different  venues  and  post-trade  providers.  Clearly  this 
+process  would  not  be  error-free  and  it  is  highly  possible  that  there  will  be  different  figures 
+obtained by each entity. This would run contrary to the objectives of the regulations and would 
+create unlevelled playing field.  
+
+From the perspective of the supervisory authorities such situation would significantly hamper 
+the fulfilment of their duties. In case the authorities are required to recreate the aggregations 
+from  the  derivatives  data  to  which  they  have  access,  it  will  be  impossible  to  compare  the 
+results,  since  every  authority  have  different  access  levels  based  on  its  responsibilities  and 
+mandates. In case it would be for ESMA to perform these aggregations, such task would be 
+overly  burdensome  and,  most  importantly,  ESMA  would  lack  the  direct  contact  with  the 
+reporting  entities  should  any  amendments  to  the  underlying  data  be  needed.  TRs  result  a 
+natural choice in this regard as they play pivotal role in the EU derivatives reporting regime.  
+
+Last, but not least, an enhanced public data provided by the TRs shows the benefits of the 
+EMIR  reporting  framework  where  private  market  infrastructures  were  tasked  to  become 
+repositories of transactions and to give access to data to the authorities, but also to the general 
+public. The key point in choosing trade repositories instead of public bodies was the inherent 
+flexibility of private entities, the potential scalability of their systems and also the relevant know-
+how in data processing. 
+
+48 
+
+ 
+
+ 
+
+ESMA REGULAR USE 
+
+ESMA understands that the main costs attached to the changes required in this RTS will be 
+borne by Trade Repositories and authorities, and thus ESMA requests precise estimates from 
+them in the context of public consultation. ESMA expects to gather further information on the 
+cost-benefit  analysis  of  the  proposed  amendments  based  on  the  evidence  and  feedback 
+received. 
+
+  
+
+49 
+
+
